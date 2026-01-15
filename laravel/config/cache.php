@@ -113,5 +113,6 @@ return [
     */
 
     'prefix' => env('CACHE_PREFIX', Str::slug((string) env('APP_NAME', 'laravel')).'-cache-'),
+    'page_ttl' => env('PAGE_CACHE_TTL', 600),
 
 ];
