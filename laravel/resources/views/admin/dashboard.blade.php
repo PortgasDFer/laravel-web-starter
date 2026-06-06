@@ -1,0 +1,11 @@
+@extends('admin.layouts.app')
+
+@section('content')
+
+<h1 class="text-3xl font-bold">
+    Dashboard
+</h1>
+
+<p>Laravel Web Starter</p>
+
+@endsection
