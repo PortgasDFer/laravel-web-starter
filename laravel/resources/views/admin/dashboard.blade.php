@@ -1,4 +1,4 @@
-@extends('admin.layouts.app')
+@extends('layouts.admin')
 
 @section('content')
 
@@ -6,6 +6,8 @@
     Dashboard
 </h1>
 
-<p>Laravel Web Starter</p>
+<p class="mt-2 text-gray-600">
+    Bienvenido al panel administrativo.
+</p>
 
 @endsection

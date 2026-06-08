@@ -20,5 +20,6 @@ class Setting extends Model
     'google_maps',
     'logo',
     'favicon',
+    'is_configured'
 ];
 }

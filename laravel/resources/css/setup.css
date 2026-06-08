@@ -1,0 +1,323 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f1f5f9;
+}
+
+.layout{
+    display:grid;
+    grid-template-columns:300px 1fr;
+    min-height:100vh;
+}
+
+.sidebar{
+    background:#0f172a;
+    color:white;
+    padding:40px;
+}
+
+.sidebar h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#94a3b8;
+    margin-bottom:30px;
+}
+
+.steps div{
+    margin-bottom:15px;
+    color:#64748b;
+}
+
+.steps .active{
+    color:white;
+    font-weight:bold;
+}
+
+.progress-container{
+    margin-top:40px;
+}
+
+.progress-bar{
+    height:10px;
+    background:#334155;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+#progress{
+    height:100%;
+    width:25%;
+    background:#6366f1;
+    transition:.4s;
+}
+
+.content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px;
+}
+
+.form-wrapper{
+    width:100%;
+    max-width:800px;
+}
+
+.step{
+    display:none;
+}
+
+.step.active{
+    display:block;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+button{
+    border:none;
+    cursor:pointer;
+    padding:12px 20px;
+    border-radius:10px;
+}
+
+button:not(.success){
+    background:#6366f1;
+    color:white;
+}
+
+.success{
+    background:#16a34a;
+    color:white;
+}
+
+.summary{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+}
+
+.welcome-image{
+    width: 320px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.welcome-container{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto;
+}
+
+.welcome-image{
+    width:320px;
+    max-width:100%;
+    margin-bottom:30px;
+}
+
+.welcome-title{
+    font-size:3rem;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:15px;
+    line-height:1.2;
+}
+
+.welcome-description{
+    font-size:1.15rem;
+    color:#6b7280;
+    max-width:600px;
+    margin:0 auto 30px;
+    line-height:1.8;
+}
+
+.welcome-features{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:35px;
+}
+
+.feature-item{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:12px 18px;
+    font-size:.95rem;
+    font-weight:500;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.btn-start{
+    background:#4f46e5;
+    color:#fff;
+    border:none;
+    border-radius:14px;
+    padding:16px 34px;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn-start:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 25px rgba(79,70,229,.25);
+}
+
+
+.form-group{
+    margin-bottom:25px;
+}
+
+.form-label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:600;
+    color:#374151;
+}
+
+.file-upload{
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    padding:20px;
+
+    background:#fff;
+    border:2px dashed #d1d5db;
+    border-radius:18px;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.file-upload:hover{
+    border-color:#4f46e5;
+    background:#f8faff;
+}
+
+.preview-container{
+    flex-shrink:0;
+}
+
+.preview-container img{
+    width:90px;
+    height:90px;
+
+    border-radius:16px;
+    object-fit:cover;
+
+    border:1px solid #e5e7eb;
+    background:#f9fafb;
+}
+
+.file-content{
+    flex:1;
+}
+
+.file-content strong{
+    display:block;
+    font-size:1rem;
+    color:#111827;
+    margin-bottom:5px;
+}
+
+.file-content p{
+    color:#6b7280;
+    font-size:.9rem;
+    margin-bottom:10px;
+}
+
+#file-name{
+    color:#4f46e5;
+    font-size:.9rem;
+    font-weight:500;
+}
+
+.favicon-preview-container img{
+    width:64px;
+    height:64px;
+    border-radius:12px;
+    object-fit:contain;
+    background:#fff;
+    border:1px solid #e5e7eb;
+    padding:8px;
+}
+
+.favicon-upload{
+    min-height:110px;
+}
+
+.sidebar {
+    width: 280px;
+    background: #071330;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+}
+
+.sidebar-footer {
+    margin-top: 40px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255,255,255,.08);
+    text-align: center;
+}
+
+.sidebar-footer {
+    margin-top: auto;
+}
+
+.sidebar-footer h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sidebar-footer p {
+    margin-top: 8px;
+    color: #94a3b8;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.logo-sidebar {
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
