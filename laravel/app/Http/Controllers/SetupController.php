@@ -14,7 +14,7 @@ class SetupController extends Controller
 
     public function store(Request $request)
     {
-        dd($request);
+
         $request->validate([
             'site_name'        => 'required|max:255',
             'site_description' => 'nullable|max:1000',
@@ -32,26 +32,44 @@ class SetupController extends Controller
             'google_maps'      => 'nullable|max:1000',
         ]);
 
-        $settings = Setting::firstOrCreate([]);
+        $settings = Setting::first();
 
-        $settings->update([
-            'site_name'        => $request->site_name,
-            'site_description' => $request->site_description,
+        if (!$settings) {
 
-            'email'            => $request->email,
-            'phone'            => $request->phone,
-            'whatsapp'         => $request->whatsapp,
-            'address'          => $request->address,
+            $settings = new Setting();
 
-            'facebook'         => $request->facebook,
-            'instagram'        => $request->instagram,
-            'linkedin'         => $request->linkedin,
-            'youtube'          => $request->youtube,
+            $settings->site_name = $request->site_name;
+            $settings->site_description = $request->site_description;
+            $settings->phone = $request->phone;
+            $settings->email = $request->email;
+            $settings->whatsapp = $request->whatsapp;
+            $settings->address = $request->address;
+            $settings->facebook = $request->facebook;
+            $settings->instagram = $request->instagram;
+            $settings->linkedin = $request->linkedin;
+            $settings->youtube = $request->youtube;
+            $settings->google_maps = $request->google_maps;
+            $settings->is_configured = true;
 
-            'google_maps'      => $request->google_maps,
+            $settings->save();
 
-            'is_configured'    => true,
-        ]);
+        } else {
+
+            $settings->update([
+                'site_name' => $request->site_name,
+                'site_description' => $request->site_description,
+                'phone' => $request->phone,
+                'email' => $request->email,
+                'whatsapp' => $request->whatsapp,
+                'address' => $request->address,
+                'facebook' => $request->facebook,
+                'instagram' => $request->instagram,
+                'linkedin' => $request->linkedin,
+                'youtube' => $request->youtube,
+                'google_maps' => $request->google_maps,
+                'is_configured' => true,
+            ]);
+        }
 
         return redirect('/dashboard')
             ->with('success', 'Configuración guardada correctamente.');
