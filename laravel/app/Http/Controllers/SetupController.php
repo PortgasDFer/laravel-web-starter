@@ -14,7 +14,6 @@ class SetupController extends Controller
 
     public function store(Request $request)
     {
-
         $request->validate([
             'site_name'        => 'required|max:255',
             'site_description' => 'nullable|max:1000',

@@ -11,9 +11,9 @@
     <!-- Icons Css -->
     <link href="{{ asset('/minia/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="{{ asset('/minia/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/minia/assets/css/app.css') }}" id="app-style" rel="stylesheet" type="text/css" />
     <title>Iniciar Sesión | Stasia</title>
-    
+
     @stack('styles')
 </head>
 <body>
