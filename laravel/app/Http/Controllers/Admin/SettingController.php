@@ -14,7 +14,7 @@ class SettingController extends Controller
             ['id' => 1],
             ['site_name' => 'Laravel Web Starter']
         );
-
+        //dd($setting);   
         return view('admin.settings.edit', compact('setting'));
     }
 
