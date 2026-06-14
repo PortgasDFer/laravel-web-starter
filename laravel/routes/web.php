@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\SetupController;
+use App\Http\Controllers\PageController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -60,5 +61,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/setup', [SetupController::class, 'index'])->name('setup');
 
     Route::post('/setup', [SetupController::class, 'store'])->name('setup.store');
+
+    Route::resource('pages', PageController::class);
 });
 require __DIR__.'/auth.php';

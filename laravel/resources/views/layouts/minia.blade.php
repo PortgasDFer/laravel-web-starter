@@ -22,7 +22,7 @@
         <link href="{{ asset('minia/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="{{ asset('minia/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
-
+        @stack('styles')
     </head>
 
     <body>
@@ -99,5 +99,6 @@
         <script src="{{ asset('minia/assets/js/pages/dashboard.init.js') }}"></script>
 
         <script src="{{ asset('minia/assets/js/app.js') }}"></script>
+        @stack('scripts')
     </body>
 </html>

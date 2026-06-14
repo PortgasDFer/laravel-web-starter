@@ -30,6 +30,13 @@
                 </li>
 
                 <li>
+                    <a href="{{ route('pages.index') }}">
+                        <i data-feather="layout"></i>
+                        <span data-key="t-horizontal">Páginas</span>
+                    </a>
+                </li>
+
+                <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i data-feather="users"></i>
                         <span data-key="t-authentication">Authentication</span>
