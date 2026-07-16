@@ -34,6 +34,8 @@
                                     <li><a href="index-3.html">Soluciones empresariales</a></li>
                                 </ul>
                             </li>
+                            <li>    <a href="portfolio.html">Proyectos</a></li>
+
                             <li>
                                 <a href="contact.html">Contacto</a>
                             </li>

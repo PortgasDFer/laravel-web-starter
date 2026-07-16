@@ -11,7 +11,7 @@
                         <h2 class="tp-minimal__design-title">Software <br> <span>que funciona.</span></h2>
                         <p class="tpds-text">Soluciones digitales enfocadas en crecimiento y operación.</p>
                         <div class="tp-minimal__button mt-35">
-                            <a href="about-me.html" class="tp-solid-btn">Download Cv</a>
+                            <a href="about-me.html" class="tp-solid-btn">Hablemos de tu proyecto</a>
                         </div>
                         <div class="tp-minimal__design-social mt-130">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
