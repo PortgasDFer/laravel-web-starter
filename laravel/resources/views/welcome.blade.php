@@ -156,10 +156,10 @@
                     </div>
                 </div>
                 <div class="tpbs-project__content">
-                    <span class="tpbs-project__category mb-10">WEBSITE DESIGN</span>
-                    <h4 class="tpbs-project__title"><a href="project-details.html">Ecommerce Product Landing</a></h4>
+                    <span class="tpbs-project__category mb-10">DESARROLLO WEB · SEO</span>
+                    <h4 class="tpbs-project__title"><a href="project-details.html">ALVA SEGUROS</a></h4>
                     <div class="tpbs-project-btn mt-20">
-                        <a href="project-details.html" class="tpbs-btn-2">More Details <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="project-details.html" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -175,10 +175,10 @@
                     </div>
                 </div>
                 <div class="tpbs-project__content">
-                    <span class="tpbs-project__category mb-10">WEBSITE Develop</span>
-                    <h4 class="tpbs-project__title"><a href="project-details.html">Logo Design is creativity</a></h4>
+                    <span class="tpbs-project__category mb-10">SITIO WEB CORPORATIVO</span>
+                    <h4 class="tpbs-project__title"><a href="project-details.html">IT Cabling</a></h4>
                     <div class="tpbs-project-btn mt-20">
-                        <a href="project-details.html" class="tpbs-btn-2">More Details <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="project-details.html" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -194,10 +194,10 @@
                     </div>
                 </div>
                 <div class="tpbs-project__content">
-                    <span class="tpbs-project__category mb-10">UX/UI DESIGN</span>
-                    <h4 class="tpbs-project__title"><a href="project-details.html">Design is a creative part</a></h4>
+                    <span class="tpbs-project__category mb-10">SOFTWARE EMPRESARIAL</span>
+                    <h4 class="tpbs-project__title"><a href="project-details.html">Stasia CMS</a></h4>
                     <div class="tpbs-project-btn mt-20">
-                        <a href="project-details.html" class="tpbs-btn-2">More Details <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="project-details.html" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -206,4 +206,32 @@
     </div>
 </div>
 <!-- tpbs-project-area end -->
+
+<!-- tpcta-area start -->
+<section class="tpcta-area grey-bg pt-130 pb-150 p-relative">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-xxl-12 col-xl-10 col-lg-10">
+                <div class="tpcta-wrapper text-center">
+                <h4 class="tpcta-title mb-40">El próximo proyecto destacado puede ser el tuyo.</h4>
+                <div class="tpcta-button">
+                    <a href="contact.html" class="tp-solid-btn">Hablemos de tu proyecto</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="tpcta__shape-star tpcta__shape-star-1">
+            <svg width="19" height="17" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 0L17.1432 9.67376H27.3148L19.0858 15.6525L22.229 25.3262L14 19.3475L5.77101 25.3262L8.9142 15.6525L0.685208 9.67376H10.8568L14 0Z" fill="#1C99FE"/>
+            </svg>
+        </div>
+        <div class="tpcta__shape-star tpcta__shape-star-2">
+            <svg width="15" height="16" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 0L17.1432 9.67376H27.3148L19.0858 15.6525L22.229 25.3262L14 19.3475L5.77101 25.3262L8.9142 15.6525L0.685208 9.67376H10.8568L14 0Z" fill="#FD4766"/>
+            </svg>
+        </div>
+    </div>
+</section>
+<!-- tpcta-area end -->
 @endsection

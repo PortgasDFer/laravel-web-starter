@@ -1,84 +1,76 @@
- <!-- footer start -->
-    <footer>
-        <div class="tpfooter-area box-plr-85">
-        <div class="footer-contact-wrapper footer-contact-overlay include-bg pt-115 pb-75" data-background="assets/img/contact/contact-bg.jpg">
+      <!-- footer start -->
+      <footer>
+         <div class="tpfooter-area black-bg-2 pt-115 pb-75">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="footer__widget footer-col-1">
-                        <div class="tp-section-title">
-                            <span class="tp-sub-title mb-15">#Contact INfo</span>
-                            <h2 class="tp-title tp-title-df mb-20">Any Question?</h2>
-                            <p>Methods and techniques to taking raw data - mining for insights and years of experience.</p>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-4 col-md-6">
+                     <div class="footer__widget">
+                        <h5 class="footer-sm-title mb-20">Hablemos de tu próximo proyecto</h5>
+                         <h5 class="footer-sp-title mb-15"><i class="fa-solid fa-comment"></i> <a href="tel:5637487598">+56 3748 7598</a></h5>
+                         <span class="footer-sp-contact"><a href="mailto:contacto@aafdesarrollodigital.com">contacto@aafdesarrollodigital.com</a></span>
+                         <div class="footer-xs-wrapper mt-60 mb-30">
+                            <h5 class="footer-xs-title">Sobre nosotros</h5>
+                            <p>Desarrollamos sitios web, software y soluciones digitales enfocadas en ayudar a empresas a crecer mediante tecnología, diseño y estrategia.</p>
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-2 offset-xl-1 col-lg-3 offset-lg-2 col-md-3 col-sm-6">
+                     <div class="footer__widget">
+                        <h5 class="footer-xs-title mb-20">Servicios</h5>
+                        <div class="footer-links mb-30">
+                           <ul>
+                              <li><a href="#">Desarrollo Web</a></li>
+                              <li><a href="#">Software Empresarial</a></li>
+                              <li><a href="#">Branding</a></li>
+                              <li><a href="#">Diseño</a></li>
+                           </ul>
                         </div>
-                        <div class="footer__lists mt-40">
-                            <div class="footer__list-item mb-40">
-                                <div class="footer__list-icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div class="footer__list-text">
-                                <p><a href="https://goo.gl/maps/iAY7xEk5PGbqwBWf6" target="blank">Ta-134/A, Gulshan Badda Link Rd,
-                                    Nya 10982 USA </a></p>
-                                </div>
-                            </div>
-                            <div class="footer__list-item mb-40">
-                                <div class="footer__list-icon">
-                                <i class="fas fa-envelope"></i>
-                                </div>
-                                <div class="footer__list-text">
-                                <p><a href="mailto:rasalinawillam@gmail.com">rasalinawillam@gmail.com</a></p>
-                                <p><a href="mailto:info@gmail.com">info@gmail.com</a></p>
-                                </div>
-                            </div>
-                            <div class="footer__list-item mb-40">
-                                <div class="footer__list-icon">
-                                <i class="fa-solid fa-phone-flip"></i>
-                                </div>
-                                <div class="footer__list-text">
-                                <p><a href="tel:+08987878773345">+08 98787 8773 345</a></p>
-                                <p><a href="tel:+08987878773345">+08 98787 8773 345</a></p>
-                                </div>
-                            </div>
+                        <h5 class="footer-xs-title mb-20">Enlaces útiles</h5>
+                        <div class="footer-links mb-30">
+                           <ul>
+                              <li><a href="#">Inicio</a></li>
+                              <li><a href="#">Nosotros</a></li>
+                              <li><a href="#">Proyectos</a></li>
+                              <li><a href="#">Contacto</a></li>
+                           </ul>
                         </div>
-                    </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="footer__widget footer-col-2">
-                        <div class="tp-section-title">
-                            <span class="tp-sub-title mb-15">#Get In Touch</span>
-                            <h2 class="tp-title tp-title-df mb-20">Let’s Say Hi</h2>
+                     </div>
+                  </div>
+                  <div class="col-xl-2 offset-xl-1 col-lg-3 col-md-3 col-sm-6">
+                     <div class="footer__widget">
+                        <h5 class="footer-xs-title mb-20">¿Por qué AAF?</h5>
+                        <div class="footer-links mb-30">
+                           <ul>
+                                <li><a href="#">Desarrollo a medida</a></li>
+                                <li><a href="#">Diseño responsivo</a></li>
+                                <li><a href="#">Optimización SEO</a></li>
+                                <li><a href="#">Alto rendimiento</a></li>
+                                <li><a href="#">Soluciones escalables</a></li>
+                                <li><a href="#">Soporte continuo</a></li>
+                                <li><a href="#">Tecnologías modernas</a></li>
+                                <li><a href="#">Atención personalizada</a></li>
+                            </ul>
                         </div>
-                        <form id="contact-form" action="mail.php" method="POST">
-                            <div class="contact-filed mb-20">
-                                <input type="text" name="name" placeholder="Enter Name">
-                            </div>
-                            <div class="contact-filed mb-30">
-                                <input type="email" name="email" placeholder="Enter Mail">
-                            </div>
-                            <div class="contact-filed mb-25">
-                                <textarea placeholder="Enter your Massage" name="message"></textarea>
-                            </div>
-                            <div class="form-submit">
-                                <button class="tp-grd-btn" type="submit">Send Massage</button>
-                            </div>
-                            <p class="ajax-response"></p>
-                        </form>
-                    </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-        </div>
-        <div class="tpcopyright-area text-center">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-12">
-                    <div class="footer-copyright-text">
-                    <p>© 2022 Nerox - Agency & Portfolio Design . All Rights Reserved.</p>
-                    </div>
-                </div>
+         </div>
+         <div class="tpcopyright-area-4 border-top-2 black-bg-2">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-7">
+                     <p>© 2026 AAF - Desarrollo digital . Todos los derechos reservados.</p>
+                  </div>
+                  <div class="col-xl-6 col-lg-5">
+                     <div class="copyright-links">
+                        <a href="#">Terminos y condiciones</a>
+                        <a href="#">Politica de privacidad</a>
+                        <a href="#">Contacto</a>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-        </div>
-    </footer>
-    <!-- footer end -->
+         </div>
+      </footer>
+      <!-- footer end -->
