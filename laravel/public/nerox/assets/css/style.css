@@ -14048,3 +14048,94 @@ p.checkout-coupon input[type=text]::placeholder {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.contact-intro__subtitle{
+    display:inline-block;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:#8c8c8c;
+    margin-bottom:12px;
+}
+
+.contact-intro__title{
+    font-size:48px;
+    line-height:1.1;
+    font-weight:700;
+    color:#141515;
+    margin-bottom:22px;
+}
+
+.contact-intro__text{
+    max-width:560px;
+    font-size:18px;
+    line-height:1.8;
+    color:#666;
+    margin:0;
+}
+
+.contact-service__label{
+    display:block;
+    margin-bottom:18px;
+    font-size:15px;
+    font-weight:600;
+    color:#141515;
+}
+
+.contact-service__options{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.service-card{
+    cursor:pointer;
+}
+
+.service-card input{
+    display:none;
+}
+
+.service-card span{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:14px 24px;
+
+    background:#f5f5fa;
+
+    border:2px solid transparent;
+
+    border-radius:50px;
+
+    font-size:15px;
+    font-weight:500;
+
+    color:#555;
+
+    transition:.3s;
+}
+
+.service-card:hover span{
+    border-color:#FD4766;
+    color:#141515;
+}
+
+.service-card input:checked + span{
+
+    color:#fff;
+
+    background:linear-gradient(
+        90deg,
+        #FD4766 0%,
+        #7644FF 55%,
+        #1C99FE 100%
+    );
+
+    border-color:transparent;
+
+    box-shadow:0 12px 25px rgba(118,68,255,.25);
+}
