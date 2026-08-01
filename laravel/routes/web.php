@@ -5,12 +5,13 @@ use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\SetupController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\SiteController;
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [SiteController::class, 'index'])->name('index');
+Route::get('/acerca-de-nosotros', [SiteController::class, 'about'])->name('about');
+
 
 Route::get('/dashboard', function () {
 

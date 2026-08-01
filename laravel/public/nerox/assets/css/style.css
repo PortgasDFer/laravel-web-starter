@@ -106,7 +106,7 @@
 }
 
 /*---------------------------------
-    typography css start 
+    typography css start
 ---------------------------------*/
 body {
   font-family: var(--tp-ff-body);
@@ -293,7 +293,7 @@ input[type=color] {
 }
 
 /*---------------------------------
-    common classes css start 
+    common classes css start
 ---------------------------------*/
 .w-img img {
   width: 100%;
@@ -360,7 +360,7 @@ input[type=color] {
 }
 
 /*----------------------------------------
-    Body Overlay 
+    Body Overlay
 -----------------------------------------*/
 .body-overlay {
   background-color: #000000;
@@ -4788,6 +4788,37 @@ input[type=color] {
   z-index: -1;
 }
 
+.tp-process-item{
+    padding:45px 35px;
+    border:1px solid #ececec;
+    transition:.35s;
+    height:100%;
+    background:#fff;
+}
+
+.tp-process-item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+}
+
+.tp-process-number{
+    font-size:64px;
+    font-weight:700;
+    line-height:1;
+    margin-bottom:25px;
+    background:linear-gradient(90deg,#ff4d79,#6b5cff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.tp-process-item h4{
+    margin-bottom:18px;
+}
+
+.tp-process-item p{
+    margin:0;
+}
+
 /*----------------------------------------*/
 /*  06. BLOG CSS START
 /*----------------------------------------*/
@@ -6387,6 +6418,34 @@ blockquote {
   background: linear-gradient(260.52deg, #1C99FE -4.98%, #7644FF 48.42%, #FD4766 96.9%);
 }
 
+.tpservices.tpservices-4{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.tpservices__content{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.tpservices__title{
+    min-height:64px;          /* Todos los títulos ocupan el mismo alto */
+    display:flex;
+    align-items:flex-start;
+    margin-bottom:20px;
+}
+
+.tpservices__content p{
+    flex:1;                   /* El texto ocupa el espacio disponible */
+    margin-bottom:30px;
+    line-height:1.8;
+}
+
+.tpservices__btn{
+    margin-top:auto !important;
+}
 .tpbs-nav-wrapper {
   top: 45%;
 }
@@ -9141,7 +9200,7 @@ blockquote {
 /*  15. Team CSS START
 /*----------------------------------------*/
 /*------------------------
-    Team Styles 
+    Team Styles
 ----------------------*/
 .tp-team {
   position: relative;

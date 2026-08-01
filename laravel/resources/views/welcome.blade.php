@@ -44,10 +44,10 @@
             <div class="tpfrn-about-image s-about-img">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="assets/img/about/about-4.jpg" class="ab-iamge mb-30" alt="about-img">
+                        <img src="{{ asset('images/index1.jpg') }}" class="ab-iamge mb-30" alt="about-img">
                     </div>
                     <div class="col-sm-6">
-                        <img src="assets/img/about/about-3.jpg" class="ab-iamge mb-30" alt="about-img">
+                        <img src="{{ asset('images/index2.jpg') }}" class="ab-iamge mb-30" alt="about-img">
                     </div>
                 </div>
             </div>
@@ -149,10 +149,10 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="project-details.html"><img src="assets/img/project/4/project-1.jpg" alt="project-img"></a>
+                        <a href="project-details.html"><img src="{{ asset('images/proyecto-mini1.jpg')}}" alt="Alva Seguros Proyecto"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
-                        <img src="assets/img/project/4/tpbs-shape.png" alt="">
+                        <img src="{{ asset('images/proyecto-mini1.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="tpbs-project__content">
@@ -168,10 +168,10 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="project-details.html"><img src="assets/img/project/4/project-2.jpg" alt="project-img"></a>
+                        <a href="project-details.html"><img src="{{ asset('images/proyecto-mini3.jpg') }}" alt="Sitio Corporativo IT Cabling"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
-                        <img src="assets/img/project/4/tpbs-shape.png" alt="">
+                        <img src="{{ asset('images/proyecto-mini3.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="tpbs-project__content">
@@ -187,10 +187,10 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="project-details.html"><img src="assets/img/project/4/project-3.jpg" alt="project-img"></a>
+                        <a href="project-details.html"><img src="{{ asset('images/proyecto-mini2.jpg') }}" alt="Plataforma de gestión de contenidos STASIA"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
-                        <img src="assets/img/project/4/tpbs-shape.png" alt="">
+                        <img src="{{ asset('images/proyecto-mini2.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="tpbs-project__content">

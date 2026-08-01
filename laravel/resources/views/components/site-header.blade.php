@@ -32,6 +32,7 @@
                                     <li><a href="index.html">Desarrollo web</a></li>
                                     <li><a href="index-2.html">Branding</a></li>
                                     <li><a href="index-3.html">Soluciones empresariales</a></li>
+                                    <li><a href="index-3.html">Software & Apps</a></li>
                                 </ul>
                             </li>
                             <li>    <a href="portfolio.html">Proyectos</a></li>
