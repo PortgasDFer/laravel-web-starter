@@ -21,13 +21,13 @@
                     <nav id="mobile-menu">
                         <ul>
                             <li>
-                                <a href="#">Inicio</a>
+                                <a href="{{route('home')}}">Inicio</a>
                             </li>
                             <li>
-                                <a href="#">Nosotros</a>
+                                <a href="{{route('about')}}">Nosotros</a>
                             </li>
                             <li class="has-dropdown">
-                                <a href="index.html">Servicios</a>
+                                <a href="#">Servicios</a>
                                 <ul class="submenu">
                                     <li><a href="index.html">Desarrollo web</a></li>
                                     <li><a href="index-2.html">Branding</a></li>
@@ -38,7 +38,7 @@
                             <li>    <a href="portfolio.html">Proyectos</a></li>
 
                             <li>
-                                <a href="contact.html">Contacto</a>
+                                <a href="{{route('contact')}}">Contacto</a>
                             </li>
                         </ul>
                     </nav>

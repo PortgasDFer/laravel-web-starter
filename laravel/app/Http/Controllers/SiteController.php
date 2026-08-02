@@ -30,4 +30,35 @@ class SiteController extends Controller
     {
         return view('site.pricing-web');
     }
+
+    public function branding()
+    {
+        return view('site.branding');
+    }
+
+    public function pricingBranding()
+    {
+        return view('site.pricing-branding');
+    }
+
+    public function enterpriseSolutions()
+    {
+        return view('site.enterprise-solutions');
+    }
+
+    public function pricingEnterpriseSolutions()
+    {
+        return view('site.pricing-enterprise-solutions');
+    }
+
+    public function softwareApps()
+    {
+        return view('site.software-apps');
+    }
+
+    public function pricingSoftwareApps()
+    {
+        return view('site.pricing-software-apps');
+    }
+
 }

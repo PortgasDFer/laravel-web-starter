@@ -9,11 +9,17 @@ use App\Http\Controllers\SiteController;
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [SiteController::class, 'index'])->name('index');
+Route::get('/', [SiteController::class, 'index'])->name('home');
 Route::get('/acerca-de-nosotros', [SiteController::class, 'about'])->name('about');
 Route::get('/contacto', [SiteController::class, 'contact'])->name('contact');
 Route::get('/desarrollo-web', [SiteController::class, 'web'])->name('web');
 Route::get('/desarrollo-web-inversion', [SiteController::class, 'pricingWeb'])->name('pricingWeb');
+Route::get('/branding', [SiteController::class, 'branding'])->name('branding');
+Route::get('/branding-inversion', [SiteController::class, 'pricingBranding'])->name('pricingBranding');
+Route::get('/soluciones-empresariales', [SiteController::class, 'enterpriseSolutions'])->name('enterprise-solutions');
+Route::get('/soluciones-empresariales-inversion', [SiteController::class, 'pricingEnterpriseSolutions'])->name('pricingEnterpriseSolutions');
+Route::get('/software-apps', [SiteController::class, 'softwareApps'])->name('software-apps');
+Route::get('/software-apps-inversion', [SiteController::class, 'pricingSoftwareApps'])->name('pricingSoftwareApps');
 
 
 Route::get('/dashboard', function () {
