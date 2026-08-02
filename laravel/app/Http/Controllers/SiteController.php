@@ -25,4 +25,9 @@ class SiteController extends Controller
     {
         return view('site.web');
     }
+
+    public function pricingWeb()
+    {
+        return view('site.pricing-web');
+    }
 }

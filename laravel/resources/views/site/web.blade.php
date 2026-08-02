@@ -210,7 +210,7 @@
                     </p>
 
                     <div class="tp-price-cta-btn mt-45">
-                        <a href="" class="tp-solid-btn">
+                        <a href="{{route('pricingWeb')}}" class="tp-solid-btn">
                             Ver planes y precios
                         </a>
                     </div>
