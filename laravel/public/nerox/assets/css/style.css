@@ -14139,3 +14139,82 @@ p.checkout-coupon input[type=text]::placeholder {
 
     box-shadow:0 12px 25px rgba(118,68,255,.25);
 }
+
+.tp-web-benefits-list{
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+    padding-left:40px;
+}
+
+.tp-benefit-item{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+}
+
+.tp-benefit-item i{
+    color:#FD4766;
+    font-size:20px;
+    margin-top:4px;
+}
+
+.tp-benefit-item span{
+    font-size:17px;
+    line-height:1.8;
+    color:#5f6368;
+}
+
+@media (max-width:991px){
+
+    .tp-web-benefits-list{
+        padding-left:0;
+        margin-top:40px;
+    }
+
+}
+
+
+.tp-price-cta{
+    background:#f8f9fc;
+}
+
+.tp-price-cta-box{
+    max-width:820px;
+    margin:auto;
+}
+
+.tp-price-cta-subtitle{
+    display:inline-block;
+    margin-bottom:15px;
+    letter-spacing:2px;
+    font-size:14px;
+    font-weight:700;
+    color:#FD4766;
+}
+
+.tp-price-cta-title{
+    font-size:52px;
+    line-height:1.15;
+    margin-bottom:25px;
+}
+
+.tp-price-cta-box p{
+    max-width:700px;
+    margin:0 auto;
+    font-size:18px;
+    line-height:1.9;
+}
+
+.tp-price-cta-box small{
+    color:#777;
+    font-size:15px;
+}
+
+@media(max-width:991px){
+
+    .tp-price-cta-title{
+        font-size:38px;
+    }
+
+}
