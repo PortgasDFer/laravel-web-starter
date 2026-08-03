@@ -9,7 +9,7 @@
                 <div class="breadcrumb__content text-center p-relative z-index-1">
                 <h3 class="breadcrumb__title">Desarrollo Web</h3>
                 <div class="breadcrumb__list">
-                    <span><a href="{{ route('index') }}">Inicio</a></span>
+                    <span><a href="{{ route('home') }}">Inicio</a></span>
                     <span class="dvdr"><i class="fa-light fa-colon"></i></span>
                     <span class="tp-current">Desarrollo Web</span>
                 </div>

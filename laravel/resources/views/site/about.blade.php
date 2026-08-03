@@ -8,7 +8,7 @@
                 <div class="breadcrumb__content text-center p-relative z-index-1">
                 <h3 class="breadcrumb__title">Acerca de nosotros</h3>
                 <div class="breadcrumb__list">
-                    <span><a href="{{route('index')}}">Inicio</a></span>
+                    <span><a href="{{route('home')}}">Inicio</a></span>
                     <span class="dvdr"><i class="fa-light fa-colon"></i></span>
                     <span class="tp-current">Acerca de nosotros</span>
                 </div>
@@ -158,5 +158,92 @@
     </div>
 </section>
 <!-- tpcta-area end -->
+
+<!-- business-value-area start -->
+<section class="business-value-area pt-120 pb-120">
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-xl-8">
+
+                <div class="tp-section-title-wrapper text-center mb-70">
+
+                    <span class="tp-section-subtitle">
+                        ¿POR QUÉ UNA SOLUCIÓN A LA MEDIDA?
+                    </span>
+
+                    <h2 class="tp-section-title">
+                        Cuando el software se adapta a tu empresa,
+                        los procesos comienzan a fluir.
+                    </h2>
+
+                    <p>
+                        Las soluciones genéricas obligan a modificar la forma de trabajar.
+                        Nosotros desarrollamos plataformas que se adaptan a tus procesos,
+                        permitiéndote crecer sin cambiar la operación de tu empresa.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4">
+
+                <div class="business-value-card">
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    <h4>Automatización</h4>
+
+                    <p>
+                        Reduce tareas repetitivas y permite que tu equipo dedique más tiempo a actividades estratégicas.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="business-value-card">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                    <h4>Control</h4>
+
+                    <p>
+                        Centraliza la información y obtén indicadores en tiempo real para tomar mejores decisiones.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="business-value-card">
+
+                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+
+                    <h4>Escalabilidad</h4>
+
+                    <p>
+                        Desarrollamos plataformas preparadas para evolucionar conforme crecen tus procesos y tu negocio.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- business-value-area end -->
 
 @endsection

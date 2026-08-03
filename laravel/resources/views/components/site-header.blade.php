@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div class="logo-white">
-                    <a href="index.html">
+                    <a href="{{route('home')}}">
                         <img src="{{asset('images/logoletrablanca.png')}}" alt="logo">
                     </a>
                 </div>
@@ -29,10 +29,10 @@
                             <li class="has-dropdown">
                                 <a href="#">Servicios</a>
                                 <ul class="submenu">
-                                    <li><a href="index.html">Desarrollo web</a></li>
-                                    <li><a href="index-2.html">Branding</a></li>
-                                    <li><a href="index-3.html">Soluciones empresariales</a></li>
-                                    <li><a href="index-3.html">Software & Apps</a></li>
+                                    <li><a href="{{route('web')}}">Desarrollo web</a></li>
+                                    <li><a href="{{route('branding')}}">Branding</a></li>
+                                    <li><a href="{{route('enterprise-solutions')}}">Soluciones empresariales</a></li>
+                                    <li><a href="{{route('software-apps')}}">Software & Apps</a></li>
                                 </ul>
                             </li>
                             <li>    <a href="portfolio.html">Proyectos</a></li>
