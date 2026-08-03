@@ -68,10 +68,10 @@
                         <i class="flaticon-coding"></i>
                     </div>
                     <div class="tpservices__content">
-                        <h4 class="tpservices__title mb-25"><a href="services-details.html">Desarrollo Web</a></h4>
+                        <h4 class="tpservices__title mb-25"><a href="{{ route('web') }}">Desarrollo Web</a></h4>
                         <p>Sitios rápidos, seguros y optimizados para buscadores.</p>
                         <div class="tpservices__btn mt-30">
-                        <a href="services-details.html">
+                        <a href="{{ route('web') }}">
                             <i class="flaticon-right-arrow-1"></i>
                         </a>
                         </div>
@@ -84,10 +84,10 @@
                         <i class="flaticon-curve"></i>
                     </div>
                     <div class="tpservices__content">
-                        <h4 class="tpservices__title mb-25"><a href="services-details.html">Software empresarial</a></h4>
+                        <h4 class="tpservices__title mb-25"><a href="{{ route('enterprise-solutions')}}">Software empresarial</a></h4>
                         <p>Soluciones personalizadas para optimizar procesos y mejorar la eficiencia operativa.</p>
                         <div class="tpservices__btn mt-30">
-                        <a href="services-details.html">
+                        <a href="{{ route('enterprise-solutions')}}">
                             <i class="flaticon-right-arrow-1"></i>
                         </a>
                         </div>
@@ -100,10 +100,10 @@
                         <i class="flaticon-branding-2"></i>
                     </div>
                     <div class="tpservices__content">
-                        <h4 class="tpservices__title mb-25"><a href="services-details.html">Branding Digital</a></h4>
+                        <h4 class="tpservices__title mb-25"><a href="{{ route('branding')}}">Branding Digital</a></h4>
                         <p> Identidad visual, experiencia de usuario y presencia profesional.</p>
                         <div class="tpservices__btn mt-30">
-                        <a href="services-details.html">
+                        <a href="{{ route('branding')}}">
                             <i class="flaticon-right-arrow-1"></i>
                         </a>
                         </div>
@@ -116,10 +116,10 @@
                         <i class="flaticon-tools"></i>
                     </div>
                     <div class="tpservices__content">
-                        <h4 class="tpservices__title mb-25"><a href="services-details.html">Consultoría Tecnológica</a></h4>
+                        <h4 class="tpservices__title mb-25"><a href="{{route('software-apps')}}">Software & Apps</a></h4>
                         <p>Te ayudamos a elegir la mejor solución para tu empresa.</p>
                         <div class="tpservices__btn mt-30">
-                        <a href="services-details.html">
+                        <a href="{{route('software-apps')}}">
                             <i class="flaticon-right-arrow-1"></i>
                         </a>
                         </div>
