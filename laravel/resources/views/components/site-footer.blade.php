@@ -19,19 +19,19 @@
                         <h5 class="footer-xs-title mb-20">Servicios</h5>
                         <div class="footer-links mb-30">
                            <ul>
-                              <li><a href="#">Desarrollo Web</a></li>
-                              <li><a href="#">Software Empresarial</a></li>
-                              <li><a href="#">Branding</a></li>
-                              <li><a href="#">Diseño</a></li>
+                              <li><a href="{{ route('web') }}">Desarrollo Web</a></li>
+                              <li><a href="{{ route('enterprise-solutions') }}">Soluciones Empresariales</a></li>
+                              <li><a href="{{ route('branding') }}">Branding e Identidad</a></li>
+                              <li><a href="{{ route('software-apps') }}">Software & Apps</a></li>
                            </ul>
                         </div>
                         <h5 class="footer-xs-title mb-20">Enlaces útiles</h5>
                         <div class="footer-links mb-30">
                            <ul>
-                              <li><a href="#">Inicio</a></li>
-                              <li><a href="#">Nosotros</a></li>
+                              <li><a href="{{ route('home') }}">Inicio</a></li>
+                              <li><a href="{{ route('about') }}">Nosotros</a></li>
                               <li><a href="#">Proyectos</a></li>
-                              <li><a href="#">Contacto</a></li>
+                              <li><a href="{{ route('contact') }}">Contacto</a></li>
                            </ul>
                         </div>
                      </div>
