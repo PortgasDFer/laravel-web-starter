@@ -35,7 +35,7 @@
                                     <li><a href="{{route('software-apps')}}">Software & Apps</a></li>
                                 </ul>
                             </li>
-                            <li>    <a href="portfolio.html">Proyectos</a></li>
+                            <li>    <a href="{{route('projects')}}">Proyectos</a></li>
 
                             <li>
                                 <a href="{{route('contact')}}">Contacto</a>
@@ -45,33 +45,9 @@
                 </div>
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
-                <div class="tp-header-right-2 d-flex align-items-center justify-content-end">
-                    <div class="tp-header-action ml-30">
-                        <ul>
-                            <li class="d-none d-sm-inline-block">
-                            <a href="javascript:void(0)" data-bs-toggle="modal" class="search" data-bs-target="#search-modal">
-                                <i class="fas fa-search"></i>
-                            </a>
-                            </li>
-                            <li>
-                            <a href="javascript:void(0)" class="info-toggle-btn sidebar-toggle-btn">
-                                <i class="fas fa-bars"></i>
-                            </a>
-                            </li>
-                            <li>
-                            <!-- dark mode button start -->
-                                <div class="mode-switch-wrapper my_switcher setting-option">
-                                    <input type="checkbox" class="checkbox" id="chk">
-                                    <label class="label" for="chk">
-                                        <i class="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
-                                        <i class="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
-                                    </label>
-                                </div>
-                            <!-- dark mode button end  -->
-                            </li>
-                        </ul>
+                    <div class="tp-header-right-2 d-flex align-items-center justify-content-end">
+                        
                     </div>
-                </div>
                 </div>
             </div>
         </div>

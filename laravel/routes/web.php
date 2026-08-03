@@ -20,6 +20,7 @@ Route::get('/soluciones-empresariales', [SiteController::class, 'enterpriseSolut
 Route::get('/soluciones-empresariales-inversion', [SiteController::class, 'pricingEnterpriseSolutions'])->name('pricingEnterpriseSolutions');
 Route::get('/software-apps', [SiteController::class, 'softwareApps'])->name('software-apps');
 Route::get('/software-apps-inversion', [SiteController::class, 'pricingSoftwareApps'])->name('pricingSoftwareApps');
+Route::get('/proyectos', [SiteController::class, 'projects'])->name('projects');
 
 
 Route::get('/dashboard', function () {

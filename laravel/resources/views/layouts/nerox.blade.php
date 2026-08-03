@@ -49,7 +49,6 @@
     </div>
     <!-- back to top end -->
     @include('components.site-header')
-    @include('components.site-sidebar')
     <main>
         @yield('content')
     </main>

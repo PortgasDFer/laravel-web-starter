@@ -61,4 +61,8 @@ class SiteController extends Controller
         return view('site.pricing-software-apps');
     }
 
+    public function projects()
+    {
+        return view('site.projects');
+    }
 }
