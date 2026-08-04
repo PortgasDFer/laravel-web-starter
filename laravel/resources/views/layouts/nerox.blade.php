@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/font-awesome-pro.css')}}">
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/spacing.css')}}">
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/style.css')}}">
+    @stack('styles')
 </head>
 <body>
     <!-- preloader start -->

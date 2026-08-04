@@ -21,7 +21,11 @@ Route::get('/soluciones-empresariales-inversion', [SiteController::class, 'prici
 Route::get('/software-apps', [SiteController::class, 'softwareApps'])->name('software-apps');
 Route::get('/software-apps-inversion', [SiteController::class, 'pricingSoftwareApps'])->name('pricingSoftwareApps');
 Route::get('/proyectos', [SiteController::class, 'projects'])->name('projects');
-
+Route::get('/desarrollo-a-medida', [SiteController::class, 'customDevelopment'])->name('custom-development');
+Route::get('/tecnologias', [SiteController::class, 'technologia'])->name('technologia');
+Route::get('/alto-rendimiento', [SiteController::class, 'highPerformance'])->name('high-performance');
+Route::get('/diseño-responsivo', [SiteController::class, 'responsive'])->name('responsive');
+Route::get('/optimizacion-seo', [SiteController::class, 'seoOptimization'])->name('seo-optimization');
 
 Route::get('/dashboard', function () {
 

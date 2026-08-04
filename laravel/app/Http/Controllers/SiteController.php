@@ -65,4 +65,29 @@ class SiteController extends Controller
     {
         return view('site.projects');
     }
+
+    public function customDevelopment()
+    {
+        return view('site.medida');
+    }
+
+    public function technologia()
+    {
+        return view('site.tecnologias');
+    }
+
+    public function highPerformance()
+    {
+        return view('site.rendimiento');
+    }
+
+    public function responsive()
+    {
+        return view('site.responsive');
+    }
+
+    public function seoOptimization()
+    {
+        return view('site.seo');
+    }
 }

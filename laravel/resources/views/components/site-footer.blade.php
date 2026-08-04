@@ -38,16 +38,15 @@
                   </div>
                   <div class="col-xl-2 offset-xl-1 col-lg-3 col-md-3 col-sm-6">
                      <div class="footer__widget">
-                        <h5 class="footer-xs-title mb-20">¿Por qué AAF?</h5>
+                        <h5 class="footer-xs-title mb-20">¿Por qué elegir AAF Desarrollo Digital?</h5>
                         <div class="footer-links mb-30">
                            <ul>
-                                <li><a href="#">Desarrollo a medida</a></li>
-                                <li><a href="#">Diseño responsivo</a></li>
-                                <li><a href="#">Optimización SEO</a></li>
-                                <li><a href="#">Alto rendimiento</a></li>
-                                <li><a href="#">Soluciones escalables</a></li>
+                                <li><a href="{{ route('custom-development') }}">Desarrollo a medida</a></li>
+                                <li><a href="{{ route('technologia') }}">Tecnologías modernas</a></li>
+                                <li><a href="{{ route('high-performance') }}">Alto rendimiento</a></li>
+                                <li><a href="{{ route('responsive') }}">Diseño responsivo</a></li>
+                                <li><a href="{{ route('seo-optimization') }}">Optimización SEO</a></li>
                                 <li><a href="#">Soporte continuo</a></li>
-                                <li><a href="#">Tecnologías modernas</a></li>
                                 <li><a href="#">Atención personalizada</a></li>
                             </ul>
                         </div>
