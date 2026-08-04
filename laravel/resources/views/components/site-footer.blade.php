@@ -46,8 +46,9 @@
                                 <li><a href="{{ route('high-performance') }}">Alto rendimiento</a></li>
                                 <li><a href="{{ route('responsive') }}">Diseño responsivo</a></li>
                                 <li><a href="{{ route('seo-optimization') }}">Optimización SEO</a></li>
-                                <li><a href="#">Soporte continuo</a></li>
-                                <li><a href="#">Atención personalizada</a></li>
+                                <li><a href="{{ route('support') }}">Soporte continuo</a></li>
+                                <li><a href="{{ route('personalized-service') }}">Atención personalizada</a></li>
+                                <li><a href="{{ route('faq') }}">Preguntas Frecuentes</a></li>
                             </ul>
                         </div>
                      </div>
@@ -62,7 +63,8 @@
                      <p>© 2026 AAF - Desarrollo digital . Todos los derechos reservados.</p>
                   </div>
                   <div class="col-xl-6 col-lg-5">
-                     <div class="copyright-links">
+                     <div class="copyright-links">.
+                        <a href="#">Gana dinero</a>
                         <a href="#">Terminos y condiciones</a>
                         <a href="#">Politica de privacidad</a>
                         <a href="{{route('contact')}}">Contacto</a>

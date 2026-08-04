@@ -26,6 +26,9 @@ Route::get('/tecnologias', [SiteController::class, 'technologia'])->name('techno
 Route::get('/alto-rendimiento', [SiteController::class, 'highPerformance'])->name('high-performance');
 Route::get('/diseño-responsivo', [SiteController::class, 'responsive'])->name('responsive');
 Route::get('/optimizacion-seo', [SiteController::class, 'seoOptimization'])->name('seo-optimization');
+Route::get('/soporte-continuo', [SiteController::class, 'support'])->name('support');
+Route::get('/atencion-personalizada', [SiteController::class, 'personalizedService'])->name('personalized-service');
+Route::get('/preguntas-frecuentes', [SiteController::class, 'faq'])->name('faq');
 
 Route::get('/dashboard', function () {
 

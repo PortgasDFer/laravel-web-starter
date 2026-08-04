@@ -90,4 +90,19 @@ class SiteController extends Controller
     {
         return view('site.seo');
     }
+    
+    public function support()
+    {
+        return view('site.soporte');
+    }
+
+    public function personalizedService()
+    {
+        return view('site.atencion-personalizada');
+    }
+
+    public function faq()
+    {
+        return view('site.faq');
+    }
 }
