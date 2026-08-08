@@ -126,7 +126,7 @@ Portfolio Projects
 
                 <article class="project-card project-lg">
 
-                    <img src="{{ asset('sitio/img/projects/alva.webp') }}" alt="ALVA Seguros">
+                    <img src="{{ asset('images/portfolio01.jpg') }}" alt="Proyecto Spasssio">
 
                     <div class="project-overlay">
 
@@ -166,7 +166,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/aquino.webp') }}" alt="Aquino Media">
+                    <img src="{{ asset('images/portfolio02.jpg') }}" alt="Aquino Media">
 
                     <div class="project-overlay">
 
@@ -198,7 +198,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/dyamedic.webp') }}" alt="DyaMedic">
+                    <img src="{{ asset('images/portfolio03.jpg') }}" alt="DyaMedic">
 
                     <div class="project-overlay">
 
@@ -222,7 +222,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/itcabling.webp') }}" alt="IT Cabling">
+                    <img src="{{ asset('images/portfolio04.jpg') }}" alt="IT Cabling">
 
                     <div class="project-overlay">
 
@@ -246,7 +246,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/medsesa.webp') }}" alt="Medsesa">
+                    <img src="{{ asset('images/portfolio05.jpg') }}" alt="Medsesa">
 
                     <div class="project-overlay">
 
@@ -270,7 +270,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/medsesa.webp') }}" alt="BACKUPP">
+                    <img src="{{ asset('images/portfolio06.jpg') }}" alt="BACKUPP">
 
                     <div class="project-overlay">
 
@@ -294,7 +294,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/aquino.webp') }}" alt="Vida y mente sana">
+                    <img src="{{ asset('images/portfolio07.jpg') }}" alt="Vida y mente sana">
 
                     <div class="project-overlay">
 
@@ -318,7 +318,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/aquino.webp') }}" alt="ALVA Seguros">
+                    <img src="{{ asset('images/portfolio08.jpg') }}" alt="ALVA Seguros">
 
                     <div class="project-overlay">
 
@@ -342,7 +342,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('sitio/img/projects/aquino.webp') }}" alt="SPASSSIO">
+                    <img src="{{ asset('images/portfolio09.jpg') }}" alt="SPASSSIO">
 
                     <div class="project-overlay">
 

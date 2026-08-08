@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
                     <div class="tp-header-right-2 d-flex align-items-center justify-content-end">
-                        
+
                     </div>
                 </div>
             </div>

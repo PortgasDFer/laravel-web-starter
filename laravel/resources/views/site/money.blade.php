@@ -4,7 +4,7 @@
 
 <!-- breadcrumb -->
 <section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay"
-    data-background="{{ asset('assets/img/breadcrumb/breadcrumb-bg-1.jpg') }}">
+    data-background="{{ asset('images/money.jpg') }}">
     <div class="container">
         <div class="row">
             <div class="col-12">
