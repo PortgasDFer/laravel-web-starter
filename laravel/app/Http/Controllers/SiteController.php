@@ -90,7 +90,7 @@ class SiteController extends Controller
     {
         return view('site.seo');
     }
-    
+
     public function support()
     {
         return view('site.soporte');
@@ -104,5 +104,10 @@ class SiteController extends Controller
     public function faq()
     {
         return view('site.faq');
+    }
+
+    public function money()
+    {
+        return view('site.money');
     }
 }

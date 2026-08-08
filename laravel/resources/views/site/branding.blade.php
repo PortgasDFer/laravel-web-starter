@@ -1,7 +1,7 @@
 @extends('layouts.nerox')
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/about1.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/branding.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -241,27 +241,27 @@
 
     <!-- IMÁGENES -->
 
-    <img src="{{ asset('sitio/img/branding/mockup-logo.webp') }}"
+    <img src="{{ asset('images/branding01.jpg') }}"
          alt="Branding"
          class="creative-image img-logo">
 
-    <img src="{{ asset('sitio/img/branding/editorial.webp') }}"
+    <img src="{{ asset('images/branding03.jpg') }}"
          alt="Editorial"
          class="creative-image img-editorial">
 
-    <img src="{{ asset('sitio/img/branding/branding-colors.webp') }}"
+    <img src="{{ asset('images/branding04.jpg') }}"
          alt="Paleta"
          class="creative-image img-colors">
 
-    <img src="{{ asset('sitio/img/branding/fotografia.webp') }}"
+    <img src="{{ asset('images/branding02.jpg') }}"
          alt="Fotografía"
          class="creative-image img-photo">
 
-    <img src="{{ asset('sitio/img/branding/business-card.webp') }}"
+    <img src="{{ asset('images/branding05.jpg') }}"
          alt="Tarjetas"
          class="creative-image img-card">
 
-    <img src="{{ asset('sitio/img/branding/packaging.webp') }}"
+    <img src="{{ asset('images/branding04.jpg') }}"
          alt="Packaging"
          class="creative-image img-packaging">
 
@@ -322,15 +322,6 @@
         <span>Estrategia</span>
 
         <h4>Marketing e identidad</h4>
-
-    </div>
-
-
-    <div class="creative-item item-tax">
-
-        <span>Facturación</span>
-
-        <h4>Servicios contables</h4>
 
     </div>
 

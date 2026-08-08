@@ -64,7 +64,7 @@
                   </div>
                   <div class="col-xl-6 col-lg-5">
                      <div class="copyright-links">.
-                        <a href="#">Gana dinero</a>
+                        <a href="{{route('money')}}">Gana dinero</a>
                         <a href="#">Terminos y condiciones</a>
                         <a href="#">Politica de privacidad</a>
                         <a href="{{route('contact')}}">Contacto</a>

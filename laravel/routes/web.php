@@ -29,6 +29,9 @@ Route::get('/optimizacion-seo', [SiteController::class, 'seoOptimization'])->nam
 Route::get('/soporte-continuo', [SiteController::class, 'support'])->name('support');
 Route::get('/atencion-personalizada', [SiteController::class, 'personalizedService'])->name('personalized-service');
 Route::get('/preguntas-frecuentes', [SiteController::class, 'faq'])->name('faq');
+Route::get('/programa-de-recomendaciones', [SiteController::class, 'money'])->name('money');
+
+
 
 Route::get('/dashboard', function () {
 

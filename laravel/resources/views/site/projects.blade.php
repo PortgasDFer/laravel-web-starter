@@ -1,7 +1,7 @@
 @extends('layouts.nerox')
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/about1.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/portfolio.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -86,7 +86,7 @@
 </section>
 <!-- portfolio intro end -->
 
-        
+
         <!--=================================
 PORTFOLIO
 ==================================-->

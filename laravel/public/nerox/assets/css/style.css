@@ -16326,7 +16326,7 @@ Enterprise Services
 
     position:relative;
 
-    height:780px;
+    height:700px;
 
     margin-top:90px;
 
@@ -16339,7 +16339,7 @@ Enterprise Services
     linear-gradient(rgba(255,255,255,.88),
     rgba(255,255,255,.92)),
 
-    url('../img/branding/moodboard.jpg');
+    url('images/moodboard.jpg');
 
     background-size:cover;
 
@@ -16425,8 +16425,6 @@ Enterprise Services
 
     left:14%;
 
-    bottom:18%;
-
     width:320px;
 
     transform:rotate(3deg);
@@ -16481,6 +16479,37 @@ Enterprise Services
 
 }
 
+.item-logo{
+    left:240px;
+    top:80px;
+}
+
+.item-editorial{
+    right:260px;
+    top:70px;
+}
+
+.item-design{
+    left:70px;
+    top:330px;
+}
+
+.item-marketing{
+    left:260px;
+    top:520px;
+}
+
+.item-photo{
+    left:50%;
+    top:500px;
+    transform:translateX(-50%);
+}
+
+.item-print{
+    right:70px;
+    top:360px;
+}
+
 @media(max-width:991px){
 
 .brand-creative-board{
@@ -16532,7 +16561,7 @@ Enterprise Services
     background:
         linear-gradient(rgba(255,255,255,.88),
         rgba(255,255,255,.92)),
-        url('../img/branding/desk-bg.webp');
+        url('images/moodboard.jpg');
 
     background-size:cover;
 
@@ -16594,11 +16623,11 @@ Enterprise Services
 
 .img-colors{
 
-    width:170px;
+    width:470px;
 
     left:170px;
 
-    bottom:90px;
+    bottom:50px;
 
     transform:rotate(-6deg);
 
@@ -16606,7 +16635,7 @@ Enterprise Services
 
 .img-photo{
 
-    width:250px;
+    width:612px;
 
     left:50%;
 
@@ -16618,7 +16647,7 @@ Enterprise Services
 
 .img-card{
 
-    width:250px;
+    width:410px;
 
     right:110px;
 
@@ -16630,7 +16659,7 @@ Enterprise Services
 
 .img-packaging{
 
-    width:220px;
+    width:396px;
 
     left:420px;
 
@@ -16728,7 +16757,6 @@ Enterprise Services
 
     left:53%;
 
-    top:575px;
 
     transform:translateX(-50%);
 
