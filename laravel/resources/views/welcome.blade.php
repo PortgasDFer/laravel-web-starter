@@ -11,7 +11,7 @@
                         <h2 class="tp-minimal__design-title">Software <br> <span>que funciona.</span></h2>
                         <p class="tpds-text">Soluciones digitales enfocadas en crecimiento y operación.</p>
                         <div class="tp-minimal__button mt-35">
-                            <a href="about-me.html" class="tp-solid-btn">Hablemos de tu proyecto</a>
+                            <a href="{{ route('contact') }}" class="tp-solid-btn">Hablemos de tu proyecto</a>
                         </div>
                         <div class="tp-minimal__design-social mt-130">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -149,7 +149,7 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="project-details.html"><img src="{{ asset('images/proyecto-mini1.jpg')}}" alt="Alva Seguros Proyecto"></a>
+                        <a href="{{route('projects')}}"><img src="{{ asset('images/proyecto-mini1.jpg')}}" alt="Alva Seguros Proyecto"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
                         <img src="{{ asset('images/proyecto-mini1.jpg')}}" alt="">
@@ -157,9 +157,9 @@
                 </div>
                 <div class="tpbs-project__content">
                     <span class="tpbs-project__category mb-10">DESARROLLO WEB · SEO</span>
-                    <h4 class="tpbs-project__title"><a href="project-details.html">ALVA SEGUROS</a></h4>
+                    <h4 class="tpbs-project__title"><a href="{{route('projects')}}">ALVA SEGUROS</a></h4>
                     <div class="tpbs-project-btn mt-20">
-                        <a href="project-details.html" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{route('projects')}}" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -168,7 +168,7 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="project-details.html"><img src="{{ asset('images/proyecto-mini3.jpg') }}" alt="Sitio Corporativo IT Cabling"></a>
+                        <a href="{{route('projects')}}  "><img src="{{ asset('images/proyecto-mini3.jpg') }}" alt="Sitio Corporativo IT Cabling"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
                         <img src="{{ asset('images/proyecto-mini3.jpg') }}" alt="">
@@ -176,9 +176,9 @@
                 </div>
                 <div class="tpbs-project__content">
                     <span class="tpbs-project__category mb-10">SITIO WEB CORPORATIVO</span>
-                    <h4 class="tpbs-project__title"><a href="project-details.html">IT Cabling</a></h4>
+                    <h4 class="tpbs-project__title"><a href="{{route('projects')}}">IT Cabling</a></h4>
                     <div class="tpbs-project-btn mt-20">
-                        <a href="project-details.html" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{route('projects')}}" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -187,7 +187,7 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="project-details.html"><img src="{{ asset('images/proyecto-mini2.jpg') }}" alt="Plataforma de gestión de contenidos STASIA"></a>
+                        <a href="{{route('projects')}}  "><img src="{{ asset('images/proyecto-mini2.jpg') }}" alt="Plataforma de gestión de contenidos STASIA"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
                         <img src="{{ asset('images/proyecto-mini2.jpg') }}" alt="">
@@ -195,9 +195,9 @@
                 </div>
                 <div class="tpbs-project__content">
                     <span class="tpbs-project__category mb-10">SOFTWARE EMPRESARIAL</span>
-                    <h4 class="tpbs-project__title"><a href="project-details.html">Stasia CMS</a></h4>
+                    <h4 class="tpbs-project__title"><a href="{{route('projects')}}">Stasia CMS</a></h4>
                     <div class="tpbs-project-btn mt-20">
-                        <a href="project-details.html" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{route('projects')}}" class="tpbs-btn-2">Más detalles <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -216,7 +216,7 @@
                 <div class="tpcta-wrapper text-center">
                 <h4 class="tpcta-title mb-40">El próximo proyecto destacado puede ser el tuyo.</h4>
                 <div class="tpcta-button">
-                    <a href="contact.html" class="tp-solid-btn">Hablemos de tu proyecto</a>
+                    <a href="{{route('contact')}}" class="tp-solid-btn">Hablemos de tu proyecto</a>
                 </div>
                 </div>
             </div>
