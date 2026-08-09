@@ -5,7 +5,7 @@
 @endpush
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/about1.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/rendimiento01.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -35,7 +35,7 @@ Service Intro
             <div class="col-xl-6 col-lg-6">
 
                 <div class="service-intro-content">
-                    
+
                     <h2 class="tp-section-title">
                         Sitios web rápidos, eficientes y preparados para ofrecer la mejor experiencia.
                     </h2>
@@ -82,7 +82,7 @@ Service Intro
                 <div class="service-intro-image">
 
                     <img
-                        src="{{ asset('sitio/img/services/high-performance.webp') }}"
+                        src="{{ asset('images/rendimiento02.jpg') }}"
                         class="img-fluid"
                         alt="Alto Rendimiento">
 

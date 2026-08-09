@@ -1,7 +1,7 @@
 @extends('layouts.nerox')
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/about1.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/soporte01.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -84,8 +84,8 @@ Service Intro
                 <div class="service-intro-image">
 
                     <img
-                        src="{{ asset('sitio/img/services/personalized-support.webp') }}"
-                        class="img-fluid"
+                            src="{{ asset('images/soporte02.jpg') }}"
+                            class="img-fluid"
                         alt="Atención Personalizada">
 
                 </div>

@@ -5,7 +5,7 @@
 @endpush
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/about1.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/medida01.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -144,9 +144,9 @@ Technology Stack
             </div>
 
             <div class="tech-item">
-                
+
             <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-          
+
                 <span>AWS</span>
             </div>
 
@@ -174,9 +174,39 @@ Technology Stack
                 <i class="fa-solid fa-server"></i>
                 <span>cPanel</span>
             </div>
+            <div class="tech-item">
+                <i class="devicon-react-original colored"></i>
+                <span>React Native</span>
+            </div>
 
-        </div>
+            <div class="tech-item">
+                <i class="devicon-android-plain colored"></i>
+                <span>Android</span>
+            </div>
 
+            <div class="tech-item">
+                <i class="devicon-apple-original colored"></i>
+                <span>iOS</span>
+            </div>
+
+            <div class="tech-item">
+                <i class="devicon-firebase-plain colored"></i>
+                <span>Firebase</span>
+            </div>
+
+            <div class="tech-item">
+                <i class="devicon-nodejs-plain colored"></i>
+                <span>Node.js</span>
+            </div>
+            <div class="tech-item">
+                <i class="fa-brands fa-app-store-ios"></i>
+                <span>App Store</span>
+            </div>
+
+            <div class="tech-item">
+                <i class="fa-brands fa-google-play"></i>
+                <span>Google Play</span>
+            </div>
     </div>
 
 </section>
