@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-
+use App\Services\SeoService;
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -12,7 +12,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->scoped(SeoService::class, function () {
+            return new SeoService();
+        });
     }
 
     /**

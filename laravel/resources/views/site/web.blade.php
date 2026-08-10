@@ -1,4 +1,5 @@
 @extends('layouts.nerox')
+
 @section('content')
 
 <!-- breadcrumb__area start -->

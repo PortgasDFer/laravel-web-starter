@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('nerox/assets/img/favicon.png') }}">
 
     <!-- theme style switch -->
     <meta name="theme-style-mode" content="1">
-
+    @include('partials.seo')
+    @include('partials.seo-schema')
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/meanmenu.css')}}">

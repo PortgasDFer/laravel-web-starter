@@ -23,6 +23,36 @@ class SiteController extends Controller
 
     public function web()
     {
+        seo([
+            'title' => 'Desarrollo Web | AAF Desarrollo Digital',
+
+            'description' => 'Diseñamos y desarrollamos sitios web profesionales, rápidos y optimizados para buscadores, adaptados a las necesidades de cada negocio.',
+
+            'keywords' => 'desarrollo web, diseño web, páginas web, desarrollo web México',
+
+            'image' => asset('images/seo/desarrollo-web.jpg'),
+
+            'type' => 'service',
+
+            'service' => [
+                'name' => 'Desarrollo Web',
+
+                'description' => 'Diseño y desarrollo de sitios web profesionales y soluciones digitales adaptadas a las necesidades de cada negocio.',
+            ],
+
+            'breadcrumbs' => [
+                [
+                    'name' => 'Inicio',
+                    'url' => url('/'),
+                ],
+
+                [
+                    'name' => 'Desarrollo Web',
+                    'url' => url('/desarrollo-web'),
+                ],
+            ],
+        ]);
+
         return view('site.web');
     }
 

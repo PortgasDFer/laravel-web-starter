@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\SetupController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SiteController;
+use App\Http\Controllers\RobotsController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -24,13 +25,13 @@ Route::get('/proyectos', [SiteController::class, 'projects'])->name('projects');
 Route::get('/desarrollo-a-medida', [SiteController::class, 'customDevelopment'])->name('custom-development');
 Route::get('/tecnologias', [SiteController::class, 'technologia'])->name('technologia');
 Route::get('/alto-rendimiento', [SiteController::class, 'highPerformance'])->name('high-performance');
-Route::get('/diseño-responsivo', [SiteController::class, 'responsive'])->name('responsive');
+Route::get('/diseno-responsivo', [SiteController::class, 'responsive'])->name('responsive');
 Route::get('/optimizacion-seo', [SiteController::class, 'seoOptimization'])->name('seo-optimization');
 Route::get('/soporte-continuo', [SiteController::class, 'support'])->name('support');
 Route::get('/atencion-personalizada', [SiteController::class, 'personalizedService'])->name('personalized-service');
 Route::get('/preguntas-frecuentes', [SiteController::class, 'faq'])->name('faq');
 Route::get('/programa-de-recomendaciones', [SiteController::class, 'money'])->name('money');
-
+Route::get('/robots.txt', [RobotsController::class, 'index'])->name('robots');
 
 
 Route::get('/dashboard', function () {
