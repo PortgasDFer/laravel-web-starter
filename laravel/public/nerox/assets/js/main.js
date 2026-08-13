@@ -33,7 +33,7 @@
 	$(window).on('load', function(event) {
         $('.preloader').delay(500).fadeOut(500);
     });
-    
+
     //===== Search
     $('#search').on('click', function(){
         $(".search-box").fadeIn(600);
@@ -124,7 +124,7 @@
 	$("[data-background").each(function () {
 		$(this).css("background-image", "url( " + $(this).attr("data-background") + "  )");
 	});
-	
+
 	$("[data-width]").each(function () {
 		$(this).css("width", $(this).attr("data-width"));
 	});
@@ -326,7 +326,7 @@
 	////////////////////////////////////////////////////
     // 09. Masonary Js
 	$('.grid').imagesLoaded( function() {
-		
+
 		var $grid = $(".grid").isotope({
 			// options
 		});
@@ -361,7 +361,7 @@
 	// 10. Wow Js
 	new WOW().init();
 
-	
+
 	////////////////////////////////////////////////////
 	//00. Cart Quantity Js
 	$(".cart-minus").on("click", function () {
@@ -1026,7 +1026,7 @@
     // 00. Creative Masonary Js
 	if ($('.grid-masonry').length > 0) {
 		$('.grid-masonry').imagesLoaded( function() {
-			
+
 			var $grid = $(".grid-masonry").isotope({
 				itemSelector: '.grid-item',
 				percentPosition: true,
@@ -1036,7 +1036,7 @@
 				var filterValue = $(this).attr("data-filter");
 				$grid.isotope({ filter: filterValue });
 			});
-	
+
 			//for menu active class
 			$(".tp-creative__menu button").on("click", function (event) {
 				$(this).siblings(".active").removeClass("active");
@@ -1050,7 +1050,7 @@
     // 00. Creative Masonary Js
 	if ($('.grid-masonry-2').length > 0) {
 		$('.grid-masonry-2').imagesLoaded( function() {
-			
+
 			var $grid = $(".grid-masonry-2").isotope({
 				itemSelector: '.grid-item',
 				percentPosition: true,
@@ -1064,7 +1064,7 @@
 				var filterValue = $(this).attr("data-filter");
 				$grid.isotope({ filter: filterValue });
 			});
-	
+
 			//for menu active class
 			$(".tp-creative__menu button").on("click", function (event) {
 				$(this).siblings(".active").removeClass("active");
@@ -1203,3 +1203,17 @@
     });
 
 })(jQuery);
+
+$(document).on('click', '.sidebar__menu .has-dropdown > a', function (e) {
+
+    e.preventDefault();
+
+    $(this)
+        .next('.submenu')
+        .stop(true, true)
+        .slideToggle(250);
+
+    $(this)
+        .find('i')
+        .toggleClass('fa-angle-down fa-angle-up');
+});
