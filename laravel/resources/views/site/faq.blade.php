@@ -1,7 +1,7 @@
 @extends('layouts.nerox')
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/faq.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/faq.webp')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">

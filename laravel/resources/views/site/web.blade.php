@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{ asset('images/webservice01.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{ asset('images/webservice01.webp')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -27,12 +27,12 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6">
                 <div class="services-sm-image w-img mb-45">
-                <img src="{{asset('images/webservices02.jpg')}}" alt="services-sm-img">
+                <img src="{{asset('images/webservices02.webp')}}" alt="services-sm-img">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
                 <div class="services-sm-image w-img mb-45">
-                <img src="{{asset('images/webservices03.jpg')}}" alt="services-sm-img">
+                <img src="{{asset('images/webservices03.webp')}}" alt="services-sm-img">
                 </div>
             </div>
         </div>
@@ -248,5 +248,6 @@
 
     </div>
 </section>
+
 <!-- pricing cta end -->
 @endsection

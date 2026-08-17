@@ -1,7 +1,7 @@
 @extends('layouts.nerox')
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/portfolio.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/portfolio.webp')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -126,7 +126,7 @@ Portfolio Projects
 
                 <article class="project-card project-lg">
 
-                    <img src="{{ asset('images/portfolio01.jpg') }}" alt="Proyecto Spasssio">
+                    <img src="{{ asset('images/portfolio01.webp') }}" alt="Proyecto Spasssio">
 
                     <div class="project-overlay">
 
@@ -166,7 +166,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio02.jpg') }}" alt="Aquino Media">
+                    <img src="{{ asset('images/portfolio02.webp') }}" alt="Aquino Media">
 
                     <div class="project-overlay">
 
@@ -198,7 +198,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio03.jpg') }}" alt="DyaMedic">
+                    <img src="{{ asset('images/portfolio03.webp') }}" alt="DyaMedic">
 
                     <div class="project-overlay">
 
@@ -222,7 +222,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio04.jpg') }}" alt="IT Cabling">
+                    <img src="{{ asset('images/portfolio04.webp') }}" alt="IT Cabling">
 
                     <div class="project-overlay">
 
@@ -246,7 +246,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio05.jpg') }}" alt="Medsesa">
+                    <img src="{{ asset('images/portfolio05.webp') }}" alt="Medsesa">
 
                     <div class="project-overlay">
 
@@ -270,7 +270,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio06.jpg') }}" alt="BACKUPP">
+                    <img src="{{ asset('images/portfolio06.webp') }}" alt="BACKUPP">
 
                     <div class="project-overlay">
 
@@ -294,7 +294,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio07.jpg') }}" alt="Vida y mente sana">
+                    <img src="{{ asset('images/portfolio07.webp') }}" alt="Vida y mente sana">
 
                     <div class="project-overlay">
 
@@ -318,7 +318,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio08.jpg') }}" alt="ALVA Seguros">
+                    <img src="{{ asset('images/portfolio08.webp') }}" alt="ALVA Seguros">
 
                     <div class="project-overlay">
 
@@ -342,7 +342,7 @@ Portfolio Projects
 
                 <article class="project-card">
 
-                    <img src="{{ asset('images/portfolio09.jpg') }}" alt="SPASSSIO">
+                    <img src="{{ asset('images/portfolio09.webp') }}" alt="SPASSSIO">
 
                     <div class="project-overlay">
 

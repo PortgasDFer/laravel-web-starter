@@ -1,7 +1,7 @@
 @extends('layouts.nerox')
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/ours.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/ours.webp')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -37,7 +37,7 @@
             </div>
             <div class="col-xl-6 col-lg-6">
                 <div class="tpabout-image-2 pb-50">
-                <img src="{{ asset('images/about3.jpg') }}" alt="Desarrollo web, diseño y sistemas digitales para empresas modernas">
+                <img src="{{ asset('images/about3.webp') }}" alt="Desarrollo web, diseño y sistemas digitales para empresas modernas">
                 </div>
             </div>
         </div>

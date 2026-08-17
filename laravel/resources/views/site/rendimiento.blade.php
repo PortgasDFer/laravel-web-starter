@@ -5,7 +5,7 @@
 @endpush
 @section('content')
 <!-- breadcrumb__area start -->
-<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/rendimiento01.jpg')}}">
+<section class="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" data-background="{{asset('images/rendimiento01.webp')}}">
     <div class="container">
         <div class="row">
             <div class="col-xxl-12">
@@ -82,7 +82,7 @@ Service Intro
                 <div class="service-intro-image">
 
                     <img
-                        src="{{ asset('images/rendimiento02.jpg') }}"
+                        src="{{ asset('images/rendimiento02.webp') }}"
                         class="img-fluid"
                         alt="Alto Rendimiento">
 

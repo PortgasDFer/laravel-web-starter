@@ -2,7 +2,7 @@
 @section('content')
 <!-- tp-minimal__area start -->
 <section class="tp-minimal__area position-relative">
-    <div class="tp-minimal__design-thumb" data-background="{{ asset('images/hero.jpg') }}"></div>
+    <div class="tp-minimal__design-thumb" data-background="{{ asset('images/hero.webp') }}"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6">
@@ -44,10 +44,10 @@
             <div class="tpfrn-about-image s-about-img">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="{{ asset('images/index1.jpg') }}" class="ab-iamge mb-30" alt="about-img">
+                        <img src="{{ asset('images/index1.webp') }}" class="ab-iamge mb-30" alt="about-img">
                     </div>
                     <div class="col-sm-6">
-                        <img src="{{ asset('images/index2.jpg') }}" class="ab-iamge mb-30" alt="about-img">
+                        <img src="{{ asset('images/index2.webp') }}" class="ab-iamge mb-30" alt="about-img">
                     </div>
                 </div>
             </div>
@@ -149,10 +149,10 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="{{route('projects')}}"><img src="{{ asset('images/proyecto-mini1.jpg')}}" alt="Alva Seguros Proyecto"></a>
+                        <a href="{{route('projects')}}"><img src="{{ asset('images/proyecto-mini1.webp')}}" alt="Alva Seguros Proyecto"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
-                        <img src="{{ asset('images/proyecto-mini1.jpg')}}" alt="">
+                        <img src="{{ asset('images/proyecto-mini1.webp')}}" alt="">
                     </div>
                 </div>
                 <div class="tpbs-project__content">
@@ -168,10 +168,10 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="{{route('projects')}}  "><img src="{{ asset('images/proyecto-mini3.jpg') }}" alt="Sitio Corporativo IT Cabling"></a>
+                        <a href="{{route('projects')}}  "><img src="{{ asset('images/proyecto-mini3.webp') }}" alt="Sitio Corporativo IT Cabling"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
-                        <img src="{{ asset('images/proyecto-mini3.jpg') }}" alt="">
+                        <img src="{{ asset('images/proyecto-mini3.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="tpbs-project__content">
@@ -187,10 +187,10 @@
                 <div class="tpbs-project mb-50">
                 <div class="tpbs-project__thumb mb-30">
                     <div class="tpbs-project__thumb-image">
-                        <a href="{{route('projects')}}  "><img src="{{ asset('images/proyecto-mini2.jpg') }}" alt="Plataforma de gestión de contenidos STASIA"></a>
+                        <a href="{{route('projects')}}  "><img src="{{ asset('images/proyecto-mini2.webp') }}" alt="Plataforma de gestión de contenidos STASIA"></a>
                     </div>
                     <div class="tpbs-project__thumb-shape">
-                        <img src="{{ asset('images/proyecto-mini2.jpg') }}" alt="">
+                        <img src="{{ asset('images/proyecto-mini2.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="tpbs-project__content">
