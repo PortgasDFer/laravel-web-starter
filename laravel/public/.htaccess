@@ -5,6 +5,10 @@
 
     RewriteEngine On
 
+    # =========================================================
+    # Laravel
+    # =========================================================
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -13,13 +17,76 @@
     RewriteCond %{HTTP:x-xsrf-token} .
     RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
 
-    # Redirect Trailing Slashes If Not A Folder...
+    # Redirect Trailing Slashes If Not A Folder
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
-    # Send Requests To Front Controller...
+    # Send Requests To Front Controller
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+</IfModule>
+
+
+# =========================================================
+# BROWSER CACHE
+# =========================================================
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Images
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    # CSS
+    ExpiresByType text/css "access plus 1 year"
+
+    # JavaScript
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType text/javascript "access plus 1 year"
+
+    # Fonts
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType font/otf "access plus 1 year"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+</IfModule>
+
+
+# =========================================================
+# CACHE-CONTROL
+# =========================================================
+
+<IfModule mod_headers.c>
+
+    # Static assets
+    <FilesMatch "\.(css|js|webp|jpg|jpeg|png|gif|svg|ico|woff|woff2|ttf|otf)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+</IfModule>
+
+
+# =========================================================
+# COMPRESSION
+# =========================================================
+
+<IfModule mod_deflate.c>
+
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+
 </IfModule>

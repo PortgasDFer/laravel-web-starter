@@ -123,22 +123,17 @@
             <div class="sidebar__social mt-30">
                 <ul>
                     <li>
-                        <a href="#" aria-label="Facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61593007580599" aria-label="Facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" aria-label="Instagram">
+                        <a href="https://www.instagram.com/aafdesarrollodigital/" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
 
-                    <li>
-                        <a href="#" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
                 </ul>
             </div>
 
