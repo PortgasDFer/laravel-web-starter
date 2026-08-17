@@ -118,7 +118,10 @@
 
                     </ul>
 
-                    <a href="#" class="tp-solid-btn w-100 text-center">
+                   <a href="https://wa.me/525637487598?text=Hola%20AAF%20Desarrollo%20Digital%2C%20estoy%20interesado%20en%20el%20plan%20Presencia%20Digital%20y%20me%20gustar%C3%ADa%20conocer%20los%20siguientes%20pasos."
+                    class="tp-solid-btn w-100 text-center"
+                    target="_blank"
+                    rel="noopener noreferrer">
                         Quiero este plan
                     </a>
 
@@ -175,8 +178,11 @@
 
                     </ul>
 
-                    <a href="#" class="tp-solid-btn w-100 text-center">
-                        Solicitar propuesta
+                    <a href="https://wa.me/525637487598?text=Hola%20AAF%20Desarrollo%20Digital%2C%20estoy%20interesado%20en%20el%20plan%20Profesional%20y%20me%20gustar%C3%ADa%20conocer%20los%20siguientes%20pasos."
+                    class="tp-solid-btn w-100 text-center"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        Quiero este plan
                     </a>
 
                 </div>
@@ -228,7 +234,10 @@
 
                     </ul>
 
-                    <a href="#" class="tp-solid-btn w-100 text-center">
+                    <a href="https://wa.me/525637487598?text=Hola%20AAF%20Desarrollo%20Digital%2C%20estoy%20interesado%20en%20el%20plan%20Empresarial%20y%20me%20gustar%C3%ADa%20conocer%20los%20siguientes%20pasos."
+                    class="tp-solid-btn w-100 text-center"
+                    target="_blank"
+                    rel="noopener noreferrer">
                         Hablar con un asesor
                     </a>
 
@@ -255,7 +264,7 @@
                         objetivos y presupuesto.
                     </p>
 
-                    <a href="#" class="tp-border-btn">
+                    <a href="{{ route('contact') }}" class="tp-border-btn">
                         Solicitar cotización personalizada
                     </a>
 

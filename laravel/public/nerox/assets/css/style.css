@@ -1628,14 +1628,20 @@ input[type=color] {
 .breadcrumb__overlay {
   position: relative;
 }
+
 .breadcrumb__overlay::after {
   position: absolute;
   content: "";
-  left: 0;
-  top: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 3, 32, 0.06);
+  background: rgba(0, 0, 0, 0.40);
+  z-index: 1;
+}
+
+.breadcrumb__overlay .breadcrumb__content {
+  position: relative;
+  z-index: 2;
 }
 
 .tpbs-scroll-5 {
@@ -14175,46 +14181,243 @@ p.checkout-coupon input[type=text]::placeholder {
 }
 
 
-.tp-price-cta{
-    background:#f8f9fc;
+/*----------------------------------------*/
+/*  PRICING CTA
+/*----------------------------------------*/
+
+.tp-price-cta {
+    background: #ffffff;
 }
 
-.tp-price-cta-box{
-    max-width:820px;
-    margin:auto;
+.tp-price-cta-wrapper {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    border: 1px solid #e8e8ed;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 20px 60px rgba(20, 21, 21, 0.06);
 }
 
-.tp-price-cta-subtitle{
-    display:inline-block;
-    margin-bottom:15px;
-    letter-spacing:2px;
-    font-size:14px;
-    font-weight:700;
-    color:#FD4766;
+/* Left */
+
+.tp-price-cta-content {
+    width: 65%;
+    padding: 65px 70px;
 }
 
-.tp-price-cta-title{
-    font-size:52px;
-    line-height:1.15;
-    margin-bottom:25px;
+.tp-price-cta-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+
+    color: #fd4766;
 }
 
-.tp-price-cta-box p{
-    max-width:700px;
-    margin:0 auto;
-    font-size:18px;
-    line-height:1.9;
+.tp-price-cta-label::before {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 2px;
+    background: #fd4766;
 }
 
-.tp-price-cta-box small{
-    color:#777;
-    font-size:15px;
+.tp-price-cta-title {
+    max-width: 650px;
+    margin-bottom: 20px;
+
+    font-size: 44px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #141515;
 }
 
-@media(max-width:991px){
+.tp-price-cta-content p {
+    max-width: 620px;
+    margin-bottom: 32px;
 
-    .tp-price-cta-title{
-        font-size:38px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.tp-price-cta-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.tp-price-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 15px 25px;
+
+    border-radius: 6px;
+
+    background: #141515;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+
+    transition: all .3s ease;
+}
+
+.tp-price-cta-btn:hover {
+    background: #fd4766;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.tp-price-cta-btn i {
+    transition: transform .3s ease;
+}
+
+.tp-price-cta-btn:hover i {
+    transform: translateX(4px);
+}
+
+.tp-price-cta-note {
+    font-size: 14px;
+    color: #777;
+}
+
+
+/* Right */
+
+.tp-price-cta-side {
+    position: relative;
+    width: 35%;
+    padding: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(
+        135deg,
+        #7c3aed 0%,
+        #b43ad3 50%,
+        #fd4766 100%
+    );
+}
+
+.tp-price-cta-card {
+    width: 100%;
+    padding: 32px;
+
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 12px;
+
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(8px);
+
+    color: #fff;
+}
+
+.tp-price-cta-card > span {
+    display: block;
+    margin-bottom: 20px;
+
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.tp-price-cta-card strong {
+    display: block;
+
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.tp-price-cta-line {
+    width: 45px;
+    height: 2px;
+    margin: 25px 0;
+
+    background: rgba(255,255,255,.8);
+}
+
+.tp-price-cta-card small {
+    display: block;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: rgba(255,255,255,.85);
+}
+
+
+/*----------------------------------------*/
+/*  Responsive
+/*----------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .tp-price-cta-wrapper {
+        display: block;
+    }
+
+    .tp-price-cta-content,
+    .tp-price-cta-side {
+        width: 100%;
+    }
+
+    .tp-price-cta-content {
+        padding: 50px 40px;
+    }
+
+    .tp-price-cta-side {
+        padding: 30px 40px 40px;
+    }
+
+    .tp-price-cta-title {
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .tp-price-cta-content {
+        padding: 40px 25px;
+    }
+
+    .tp-price-cta-side {
+        padding: 20px 25px 30px;
+    }
+
+    .tp-price-cta-title {
+        font-size: 32px;
+    }
+
+    .tp-price-cta-content p {
+        font-size: 16px;
+    }
+
+    .tp-price-cta-actions {
+        display: block;
+    }
+
+    .tp-price-cta-btn {
+        margin-bottom: 18px;
+    }
+
+    .tp-price-cta-note {
+        display: block;
     }
 
 }
@@ -14302,33 +14505,46 @@ PRICING HERO
 
 }
 
-.pricing-hero__buttons{
-
-    margin-top:50px;
-
+.pricing-hero__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
 }
 
+.pricing-hero__buttons .tp-solid-btn,
+.pricing-hero__buttons .tp-border-btn {
+    width: 260px;
+    height: 56px;
+    margin-left: 0 !important;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+
+/* Botón secundario */
+.pricing-hero__buttons .tp-border-btn {
+    color: #141515;
+    border: 1px solid #141515;
+    background: transparent;
+}
+
+.pricing-hero__buttons .tp-border-btn:hover {
+    color: #ffffff;
+    background: #141515;
+    border-color: #141515;
+}
 .tp-border-btn{
 
-    display:inline-flex;
+    border-color:#7644ff;
 
-    align-items:center;
-
-    justify-content:center;
-
-    height:60px;
-
-    padding:0 38px;
-
-    border:2px solid #ddd;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    transition:.3s;
+    color:#7644ff;
 
 }
+
 
 .tp-border-btn:hover{
 
@@ -14382,32 +14598,38 @@ PRICING HERO
 
     }
 
-    .pricing-hero__buttons{
+.pricing-hero__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
 
-        display:flex;
+.pricing-hero__buttons .tp-solid-btn,
+.pricing-hero__buttons .tp-border-btn {
+    width: 260px;
+    height: 56px;
+    margin-left: 0 !important;
 
-        flex-direction:column;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
-        gap:18px;
+    box-sizing: border-box;
+}
 
-        align-items:center;
+/* Botón secundario */
+.pricing-hero__buttons .tp-border-btn {
+    color: #141515;
+    border: 1px solid #141515;
+    background: transparent;
+}
 
-    }
-
-    .tp-border-btn{
-
-        margin-left:0 !important;
-
-        width:260px;
-
-    }
-
-    .tp-solid-btn{
-
-        width:260px;
-
-    }
-
+.pricing-hero__buttons .tp-border-btn:hover {
+    color: #ffffff;
+    background: #141515;
+    border-color: #141515;
+}
 }
 
 .pricing-card{
@@ -18260,3 +18482,267 @@ CTA
     color: #a40046;
     border-color: #a40046;
 }
+
+
+.tp-border-btn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 56px;
+    padding: 0 30px;
+
+    color: #141515 !important;
+    background: #ffffff !important;
+
+    border: 1px solid #141515 !important;
+    border-radius: 30px;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    transition: all 0.3s ease;
+}
+
+.tp-border-btn:hover {
+    color: #ffffff !important;
+    background: #141515 !important;
+    border-color: #141515 !important;
+}
+
+/*----------------------------------------*/
+/*  AAF WHATSAPP FLOATING BUTTON
+/*----------------------------------------*/
+
+.aaf-whatsapp {
+    position: fixed;
+    right: 35px;
+    bottom: 105px;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* Botón */
+
+.aaf-whatsapp-button {
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #25D366;
+    color: #ffffff;
+
+    font-size: 30px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.aaf-whatsapp-button:hover {
+    color: #ffffff;
+    transform: scale(1.08);
+
+    box-shadow:
+        0 10px 30px rgba(37, 211, 102, 0.35);
+}
+
+/* Tooltip */
+
+.aaf-whatsapp-tooltip {
+    position: relative;
+
+    padding: 12px 17px;
+
+    border-radius: 8px;
+
+    background: #141515;
+    color: #ffffff;
+
+    font-size: 13px;
+    line-height: 1.5;
+
+    white-space: nowrap;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+
+    opacity: 0;
+    transform: translateX(15px);
+
+    animation: aafWhatsappTooltip 0.6s ease forwards;
+    animation-delay: 1.5s;
+}
+
+/* Flecha */
+
+.aaf-whatsapp-tooltip::after {
+    content: "";
+
+    position: absolute;
+    right: -7px;
+    top: 50%;
+
+    width: 14px;
+    height: 14px;
+
+    background: #141515;
+
+    transform: translateY(-50%) rotate(45deg);
+}
+
+/* Animación de aparición */
+
+@keyframes aafWhatsappTooltip {
+
+    0% {
+        opacity: 0;
+        transform: translateX(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+.aaf-whatsapp-button::before {
+    content: "";
+
+    position: absolute;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    border: 2px solid #25D366;
+
+    animation: aafWhatsappPulse 2.2s infinite;
+
+    pointer-events: none;
+}
+
+@keyframes aafWhatsappPulse {
+
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+
+    70% {
+        transform: scale(1.35);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1.35);
+        opacity: 0;
+    }
+
+}
+
+.aaf-whatsapp-button {
+    position: relative;
+}
+
+@media (max-width: 575px) {
+
+    .aaf-whatsapp {
+        right: 18px;
+        bottom: 78px;
+    }
+
+    .aaf-whatsapp-button {
+        width: 54px;
+        height: 54px;
+        font-size: 27px;
+    }
+
+    .aaf-whatsapp-button::before {
+        width: 54px;
+        height: 54px;
+    }
+
+    .aaf-whatsapp-tooltip {
+        display: none;
+    }
+
+}
+
+/* Tooltip oculto por defecto */
+.aaf-whatsapp-tooltip {
+    position: relative;
+
+    padding: 12px 17px;
+    border-radius: 8px;
+
+    background: #141515;
+    color: #ffffff;
+
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: nowrap;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(10px);
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease,
+        visibility 0.25s ease;
+}
+
+/* Mostrar únicamente al pasar el mouse */
+.aaf-whatsapp:hover .aaf-whatsapp-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Flecha */
+.aaf-whatsapp-tooltip::after {
+    content: "";
+
+    position: absolute;
+    right: -7px;
+    top: 50%;
+
+    width: 14px;
+    height: 14px;
+
+    background: #141515;
+
+    transform: translateY(-50%) rotate(45deg);
+}
+
+ /*----------------------------------------*/
+ /*  FLOATING ACTION BUTTONS
+ /*----------------------------------------*/
+
+ /* Botón volver arriba */
+ .progress-wrap {
+     right: 25px !important;
+     bottom: 25px !important;
+ }
+
+ /* WhatsApp */
+ .aaf-whatsapp {
+     right: 25px !important;
+     bottom: 90px !important;
+ }

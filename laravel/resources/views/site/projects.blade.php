@@ -548,32 +548,58 @@ EXPERIENCIA
 </section>
 
 <!-- enterprise cta start -->
-<section class="enterprise-cta pt-120 pb-120">
+<section class="tp-price-cta pt-100 pb-100">
     <div class="container">
 
-        <div class="enterprise-cta-box">
+        <div class="tp-price-cta-wrapper">
 
-            <span class="enterprise-cta-subtitle">
-                ¿Tu empresa tiene procesos que podrían automatizarse?
-            </span>
+            <div class="tp-price-cta-content">
 
-            <h2>
-                Convirtamos tus procesos en una ventaja competitiva.
-            </h2>
+                <span class="tp-price-cta-label">
+                    PLANES Y PRECIOS
+                </span>
 
-            <p>
-                Cada empresa opera de forma distinta. Analizamos tus procesos, identificamos oportunidades de mejora y diseñamos una solución tecnológica completamente personalizada, preparada para crecer junto con tu negocio.
-            </p>
+                <h3 class="tp-price-cta-title">
+                    Encuentra la solución adecuada para tu negocio.
+                </h3>
 
-            <div class="enterprise-cta-buttons">
+                <p>
+                    Conoce nuestras opciones de desarrollo web y elige el punto
+                    de partida que mejor se adapte a las necesidades de tu empresa.
+                </p>
 
-                <a href="{{ route('contact') }}" class="tp-solid-btn">
-                    Solicitar una asesoría
-                </a>
+                <div class="tp-price-cta-actions">
+                    <a href="{{ route('pricingWeb') }}" class="tp-price-cta-btn">
+                        Ver planes y precios
+                        <i class="fa-regular fa-arrow-right"></i>
+                    </a>
 
-                <a href="{{ route('contact') }}" class="tp-border-btn">
-                    Hablemos de tu proyecto
-                </a>
+                    <span class="tp-price-cta-note">
+                        ¿Necesitas algo diferente? Podemos desarrollarlo a medida.
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="tp-price-cta-side">
+
+                <div class="tp-price-cta-card">
+
+                    <span>DESARROLLO A MEDIDA</span>
+
+                    <strong>
+                        Tu proyecto,<br>
+                        sin límites.
+                    </strong>
+
+                    <div class="tp-price-cta-line"></div>
+
+                    <small>
+                        Analizamos tus necesidades y construimos una solución
+                        pensada para tu operación.
+                    </small>
+
+                </div>
 
             </div>
 
@@ -581,5 +607,4 @@ EXPERIENCIA
 
     </div>
 </section>
-<!-- enterprise cta end -->
 @endsection

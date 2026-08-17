@@ -14,7 +14,7 @@
                             <a href="{{ route('contact') }}" class="tp-solid-btn">Hablemos de tu proyecto</a>
                         </div>
                         <div class="tp-minimal__design-social mt-130">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61593007580599"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-youtube"></i></a>
                             <a href="#"><i class="fab fa-behance"></i></a>

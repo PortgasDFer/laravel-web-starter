@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('nerox/assets/img/favicon.png') }}">
+
+    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
 
     <!-- theme style switch -->
     <meta name="theme-style-mode" content="1">
@@ -55,6 +56,22 @@
         @yield('content')
     </main>
     @include('components.site-footer')
+    <!-- WhatsApp Floating Button -->
+    <div class="aaf-whatsapp">
+
+        <div class="aaf-whatsapp-tooltip">
+            ¿Necesitas ayuda?<br>
+            <strong>Estamos para ayudarte.</strong>
+        </div>
+
+        <a href="https://wa.me/525637487598?text=Hola%20AAF%20Desarrollo%20Digital%2C%20vi%20su%20sitio%20web%20y%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios.%20Tengo%20un%20proyecto%20que%20me%20gustar%C3%ADa%20comentar%20con%20ustedes."
+        class="aaf-whatsapp-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contactar por WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
 
     <!-- JS here -->
     <script src="{{ asset('nerox/assets/js/vendor/jquery.js') }}"></script>

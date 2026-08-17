@@ -189,44 +189,64 @@
 <!-- what we deliver end -->
 
 <!-- pricing cta start -->
-<section class="tp-price-cta pt-120 pb-120">
+<section class="tp-price-cta pt-100 pb-100">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-9">
 
-                <div class="tp-price-cta-box text-center">
+        <div class="tp-price-cta-wrapper">
 
-                    <span class="tp-price-cta-subtitle">
-                        INVERSIÓN Y PLANES
+            <div class="tp-price-cta-content">
+
+                <span class="tp-price-cta-label">
+                    PLANES Y PRECIOS
+                </span>
+
+                <h3 class="tp-price-cta-title">
+                    Encuentra la solución adecuada para tu negocio.
+                </h3>
+
+                <p>
+                    Conoce nuestras opciones de desarrollo web y elige el punto
+                    de partida que mejor se adapte a las necesidades de tu empresa.
+                </p>
+
+                <div class="tp-price-cta-actions">
+                    <a href="{{ route('pricingWeb') }}" class="tp-price-cta-btn">
+                        Ver planes y precios
+                        <i class="fa-regular fa-arrow-right"></i>
+                    </a>
+
+                    <span class="tp-price-cta-note">
+                        ¿Necesitas algo diferente? Podemos desarrollarlo a medida.
                     </span>
+                </div>
 
-                    <h3 class="tp-price-cta-title">
-                        ¿Quieres conocer cuánto podría costar tu proyecto?
-                    </h3>
+            </div>
 
-                    <p>
-                        Cada empresa tiene necesidades diferentes. Hemos preparado
-                        una guía con nuestros planes y rangos de inversión para ayudarte
-                        a elegir la solución que mejor se adapte a tus objetivos.
-                    </p>
+            <div class="tp-price-cta-side">
 
-                    <div class="tp-price-cta-btn mt-45">
-                        <a href="{{route('pricingWeb')}}" class="tp-solid-btn">
-                            Ver planes y precios
-                        </a>
-                    </div>
+                <div class="tp-price-cta-card">
 
-                    <small class="d-block mt-25">
-                        ¿Necesitas una solución completamente personalizada?
-                        También elaboramos propuestas a la medida.
+                    <span>DESARROLLO A MEDIDA</span>
+
+                    <strong>
+                        Tu proyecto,<br>
+                        sin límites.
+                    </strong>
+
+                    <div class="tp-price-cta-line"></div>
+
+                    <small>
+                        Analizamos tus necesidades y construimos una solución
+                        pensada para tu operación.
                     </small>
 
                 </div>
 
             </div>
+
         </div>
+
     </div>
 </section>
 <!-- pricing cta end -->
-
 @endsection
