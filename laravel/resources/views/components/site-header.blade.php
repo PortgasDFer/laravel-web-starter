@@ -7,12 +7,12 @@
                 <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
                 <div class="logo-dark">
                     <a href="{{route('home')}}">
-                        <img src="{{asset('images/logo.png')}}" alt="logo">
+                        <img src="{{asset('images/logo.webp')}}" alt="logo">
                     </a>
                 </div>
                 <div class="logo-white">
                     <a href="{{route('home')}}">
-                        <img src="{{asset('images/logoletrablanca.png')}}" alt="logo">
+                        <img src="{{asset('images/logoletrablanca.webp')}}" alt="logo">
                     </a>
                 </div>
                 </div>

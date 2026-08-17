@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
+    <link rel="icon" type="image/webp" href="{{ asset('images/favicon.webp') }}">
 
     <!-- theme style switch -->
     <meta name="theme-style-mode" content="1">

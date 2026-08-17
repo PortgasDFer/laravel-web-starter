@@ -15,7 +15,7 @@
             <div class="sidebar__logo mb-40">
                 <a href="{{ route('home') }}">
                     <img
-                        src="{{ asset('images/logo.png') }}"
+                        src="{{ asset('images/logo.webp') }}"
                         alt="AAF Desarrollo Digital"
                     >
                 </a>
