@@ -63,7 +63,7 @@
                      <p>© 2026 AAF - Desarrollo digital . Todos los derechos reservados.</p>
                   </div>
                   <div class="col-xl-6 col-lg-5">
-                     <div class="copyright-links">.
+                     <div class="copyright-links">
                         <a href="{{route('money')}}">Gana dinero</a>
                         <a href="#">Terminos y condiciones</a>
                         <a href="#">Politica de privacidad</a>

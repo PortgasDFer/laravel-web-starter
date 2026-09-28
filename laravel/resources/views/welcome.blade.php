@@ -1,4 +1,7 @@
 @extends('layouts.nerox')
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('nerox/assets/css/aaf-home.css')}}">
+@endpush
 @section('content')
 <!-- tp-minimal__area start -->
 <section class="tp-minimal__area position-relative">

@@ -13,18 +13,20 @@
     @include('partials.seo')
     @include('partials.seo-schema')
     <!-- CSS here -->
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/bootstrap.css')}}">
+    <!--<link rel="stylesheet" href="{{ asset('nerox/assets/css/bootstrap.css')}}">-->
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/meanmenu.css')}}">
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/animate.css')}}">
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/swiper-bundle.css')}}">
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/slick.css')}}">
+    <!--<link rel="stylesheet" href="{{ asset('nerox/assets/css/animate.css')}}">-->
+    <!--<link rel="stylesheet" href="{{ asset('nerox/assets/css/swiper-bundle.css')}}">-->
+    <!--<link rel="stylesheet" href="{{ asset('nerox/assets/css/slick.css')}}">-->
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/backtotop.css')}}">
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/nice-select.css')}}">
+    <!--<link rel="stylesheet" href="{{ asset('nerox/assets/css/magnific-popup.css')}}">-->
+    <!--<link rel="stylesheet" href="{{ asset('nerox/assets/css/nice-select.css')}}">-->
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/font-awesome-pro.css')}}">
+    <!--<link rel="stylesheet" href="{{ asset('nerox/assets/css/font-awesome-pro.css')}}">-->
     <link rel="stylesheet" href="{{ asset('nerox/assets/css/spacing.css')}}">
-    <link rel="stylesheet" href="{{ asset('nerox/assets/css/style.css')}}">
+
+    <link rel="stylesheet" href="{{ asset('nerox/assets/css/aaf-layout.css') }}">
+    <link rel="stylesheet" href="{{ asset('nerox/assets/css/aaf-global.css')}}">
     @stack('styles')
 </head>
 <body>
@@ -91,7 +93,6 @@
     <script src="{{ asset('nerox/assets/js/isotope-pkgd.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/imagesloaded-pkgd.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/ajax-form.js') }}"></script>
-    <script src="{{ asset('nerox/assets/js/cookie.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/main.js') }}"></script>
 </body>
 </html>
