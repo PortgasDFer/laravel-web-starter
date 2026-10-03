@@ -1,0 +1,56 @@
+/* =========================================================
+   AAF DESARROLLO DIGITAL
+   SPACING CSS
+   Solo clases utilizadas por el frontend público
+   ========================================================= */
+
+/* Margin Top */
+.mt-5  { margin-top: 5px !important; }
+.mt-25 { margin-top: 25px; }
+.mt-30 { margin-top: 30px; }
+.mt-40 { margin-top: 40px; }
+.mt-50 { margin-top: 50px; }
+.mt-60 { margin-top: 60px; }
+.mt-70 { margin-top: 70px; }
+.mt-80 { margin-top: 80px; }
+.mt-120 { margin-top: 120px; }
+
+/* Margin Bottom */
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-25 { margin-bottom: 25px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-35 { margin-bottom: 35px; }
+.mb-40 { margin-bottom: 40px; }
+.mb-45 { margin-bottom: 45px; }
+.mb-60 { margin-bottom: 60px; }
+.mb-70 { margin-bottom: 70px; }
+.mb-80 { margin-bottom: 80px; }
+
+/* Margin Left / Right */
+.ml-20 { margin-left: 20px; }
+.mr-15 { margin-right: 15px; }
+
+/* Padding Top */
+.pt-40 { padding-top: 40px; }
+.pt-100 { padding-top: 100px; }
+.pt-105 { padding-top: 105px; }
+.pt-115 { padding-top: 115px; }
+.pt-120 { padding-top: 120px; }
+.pt-130 { padding-top: 130px; }
+.pt-140 { padding-top: 140px; }
+.pt-170 { padding-top: 170px; }
+
+/* Padding Bottom */
+.pb-50 { padding-bottom: 50px; }
+.pb-75 { padding-bottom: 75px; }
+.pb-90 { padding-bottom: 90px; }
+.pb-100 { padding-bottom: 100px; }
+.pb-105 { padding-bottom: 105px; }
+.pb-120 { padding-bottom: 120px; }
+.pb-130 { padding-bottom: 130px; }
+.pb-140 { padding-bottom: 140px; }
+.pb-150 { padding-bottom: 150px; }
+
+/* Padding Left */
+.pl-30 { padding-left: 30px; }

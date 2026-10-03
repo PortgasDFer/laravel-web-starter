@@ -15,7 +15,7 @@
     --aaf-text: #777B83;
 
     --aaf-grey-1: #ECEFF4;
-    --aaf-grey-3: #A4A6AA;
+    --aaf-grey-3: #6F737A;
 
     --aaf-purple: #7644FF;
     --aaf-blue: #1C99FE;
@@ -99,7 +99,7 @@
     display: inline-block;
     font-weight: var(--aaf-fw-bold);
     transition: all 0.4s ease-in-out;
-    background: var(--aaf-pink);
+    background: #C83255;
     border: 2px solid transparent;
     text-align: center;
 }
@@ -237,7 +237,7 @@
     font-weight: var(--aaf-fw-bold);
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #A0A2A4;
+    color: #666A73;
     display: block;
 }
 

@@ -277,3 +277,6 @@
 </section>
 <!-- contact area end -->
 @endsection
+@push('scripts')
+    <script src="{{ asset('nerox/assets/js/nice-select.js') }}"></script>
+@endpush

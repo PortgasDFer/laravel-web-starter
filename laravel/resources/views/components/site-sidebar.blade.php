@@ -4,7 +4,7 @@
 
         <!-- Cerrar -->
         <div class="sidebar__close">
-            <button class="sidebar__close-btn" id="sidebar__close-btn">
+            <button class="sidebar__close-btn" id="sidebar__close-btn" aria-label="Cerrar menú">
                 <i class="fal fa-times"></i>
             </button>
         </div>

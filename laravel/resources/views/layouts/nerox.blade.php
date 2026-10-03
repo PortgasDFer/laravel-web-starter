@@ -80,13 +80,13 @@
     <script src="{{ asset('nerox/assets/js/vendor/waypoints.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/bootstrap-bundle.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/meanmenu.js') }}"></script>
-    <script src="{{ asset('nerox/assets/js/swiper-bundle.js') }}"></script>
-    <script src="{{ asset('nerox/assets/js/slick.js') }}"></script>
+    <!-- <script src="{{ asset('nerox/assets/js/swiper-bundle.js') }}"></script> -->
+    <!-- <script src="{{ asset('nerox/assets/js/slick.js') }}"></script> -->
     <script src="{{ asset('nerox/assets/js/magnific-popup.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/parallax.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/backtotop.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/cookie.js') }}"></script>
-    <script src="{{ asset('nerox/assets/js/style-switcher.js') }}"></script>
+    <!-- <script src="{{ asset('nerox/assets/js/style-switcher.js') }}"></script> -->
     <script src="{{ asset('nerox/assets/js/nice-select.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/counterup.js') }}"></script>
     <script src="{{ asset('nerox/assets/js/wow.js') }}"></script>
